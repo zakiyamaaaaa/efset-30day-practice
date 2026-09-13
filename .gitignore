@@ -1,0 +1,6 @@
+.DS_Store
+*.aiff
+*.wav
+*.zip
+__pycache__/
+

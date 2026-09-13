@@ -1,0 +1,2402 @@
+[
+  {
+    "day": 1,
+    "title": "予定の変更",
+    "focus": "数字・訂正：最初の情報と最終決定を区別する",
+    "listening": {
+      "text": "Hi, this is Maya from the training team. Our workshop was originally planned for Wednesday morning, but the trainer's flight has been delayed. We've moved it to Thursday at two in the afternoon. The room is still the same, on the third floor. You don't need to register again. However, if the new time doesn't work for you, please email me by Tuesday evening. We'll send a recording to anyone who can't attend, although the question session won't be included.",
+      "questions": [
+        {
+          "prompt": "When will the workshop take place?",
+          "options": [
+            "Thursday afternoon",
+            "Tuesday evening",
+            "Wednesday morning"
+          ],
+          "answer": 0,
+          "why": "moved it to Thursday at two が最終決定。Wednesday は変更前、Tuesday は連絡期限。"
+        },
+        {
+          "prompt": "What will people who miss the workshop receive?",
+          "options": [
+            "A new registration form",
+            "A recording without the question session",
+            "A recording of only the questions"
+          ],
+          "answer": 1,
+          "why": "a recording … although the question session won’t be included。質問部分は含まれない。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "From next month, the town library will open at nine instead of ten on weekdays. Closing times will remain unchanged. The earlier opening is a three-month trial requested by students who want to study before classes. During the trial, visitors can use the study area and borrow books, but the information desk will not open until ten. Staff will count morning visitors before deciding whether to keep the new hours. Weekend opening times will stay the same.\n\nThe library has arranged for one staff member to supervise the building from nine. That employee can issue loans but cannot answer specialist research questions. Students have welcomed the change, while some residents have asked why Saturday hours are not included. The library says it wants to measure weekday demand first, because extending the trial would require additional staffing funds.",
+      "questions": [
+        {
+          "prompt": "What is the main purpose of the notice?",
+          "options": [
+            "To explain an earlier-opening trial",
+            "To recruit library staff",
+            "To announce permanent weekend hours"
+          ],
+          "answer": 0,
+          "why": "three-month trial と、期間中のサービス・判断方法を説明している。永続的変更ではない。"
+        },
+        {
+          "prompt": "What can a visitor do at 9:30 on a weekday during the trial?",
+          "options": [
+            "Attend a class run by staff",
+            "Ask the information desk for help",
+            "Borrow a book"
+          ],
+          "answer": 2,
+          "why": "borrow books は可能。information desk は10時まで開かない。"
+        },
+        {
+          "prompt": "Why are Saturday hours not changing during the trial?",
+          "options": [
+            "Weekend demand has already been measured",
+            "The library wants weekday evidence before spending more",
+            "Students opposed Saturday opening"
+          ],
+          "answer": 1,
+          "why": "weekday demandを先に測り、追加の人件費を判断するとある。週末需要を測定済みとは書かれていない。"
+        },
+        {
+          "prompt": "What can the supervising employee do before ten?",
+          "options": [
+            "Lend books",
+            "Answer specialist research questions",
+            "Change the weekend schedule"
+          ],
+          "answer": 0,
+          "why": "can issue loans とある。一方、専門的な調査質問には答えられない。"
+        }
+      ]
+    },
+    "words": [
+      "originally＝当初は",
+      "remain unchanged＝変わらない",
+      "trial＝試行"
+    ]
+  },
+  {
+    "day": 2,
+    "title": "勧める理由",
+    "focus": "主旨：例よりも結論をつかむ",
+    "listening": {
+      "text": "I used to drive to the office because I thought the bus would take much longer. Last month, my car needed repairs, so I tried the express bus. The journey was only ten minutes longer, and I could read instead of watching traffic. I still drive when I need to collect my daughter early, but most days I take the bus now. It isn't always perfectly on time. Still, arriving a little later feels better than starting the day already tired from driving.",
+      "questions": [
+        {
+          "prompt": "Why does the speaker usually take the bus now?",
+          "options": [
+            "It makes the journey less tiring",
+            "It is always faster",
+            "Parking has become impossible"
+          ],
+          "answer": 0,
+          "why": "read instead of watching traffic と最後の tired from driving が理由。所要時間は長い。"
+        },
+        {
+          "prompt": "When does the speaker still drive?",
+          "options": [
+            "Whenever the bus is late",
+            "Every Monday",
+            "When an early pickup is needed"
+          ],
+          "answer": 2,
+          "why": "when I need to collect my daughter early が条件。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "A small company introduced a quiet hour after lunch. During this time, employees avoid internal meetings and turn off non-urgent notifications. Customers can still contact the support team as usual. The company did not introduce the rule to make people work faster. Instead, it wanted to give everyone a predictable period for tasks requiring concentration. Some employees prefer to concentrate in the morning, so managers allow teams to choose a different hour if all members agree.\n\nAfter six weeks, staff said they finished complex reports with fewer interruptions. However, response times to internal messages became slightly longer, so urgent requests are now marked with a special label. Managers will compare project quality and staff feedback after three months. They say the rule will continue only if focused work improves without creating serious delays for colleagues.",
+      "questions": [
+        {
+          "prompt": "Why was the quiet hour introduced?",
+          "options": [
+            "To shorten the working day",
+            "To reduce customer enquiries",
+            "To provide reliable time for focused work"
+          ],
+          "answer": 2,
+          "why": "predictable period … requiring concentration が主目的。faster は明確に否定。"
+        },
+        {
+          "prompt": "How can a team change its quiet hour?",
+          "options": [
+            "By asking customers",
+            "By cancelling all meetings permanently",
+            "By getting agreement from every member"
+          ],
+          "answer": 2,
+          "why": "if all members agree。全員の同意が条件。"
+        },
+        {
+          "prompt": "What problem appeared after quiet hour was introduced?",
+          "options": [
+            "Customers could no longer call support",
+            "Internal messages sometimes received slower replies",
+            "Employees stopped writing reports"
+          ],
+          "answer": 1,
+          "why": "response times to internal messages became slightly longer が問題。顧客対応は通常どおり。"
+        },
+        {
+          "prompt": "What will determine whether the rule continues?",
+          "options": [
+            "Only the number of messages sent",
+            "Whether every team uses the same hour",
+            "A balance between better focus and acceptable delays"
+          ],
+          "answer": 2,
+          "why": "集中作業の改善と、同僚への深刻な遅延がないことの両方を条件にしている。"
+        }
+      ]
+    },
+    "words": [
+      "collect＝迎えに行く",
+      "predictable＝予測できる・予定が立つ",
+      "concentration＝集中"
+    ]
+  },
+  {
+    "day": 3,
+    "title": "同じ意味を探す",
+    "focus": "言い換え：本文と選択肢の語が違っても照合する",
+    "listening": {
+      "text": "The cooking class was more practical than I expected. We didn't spend the evening watching the chef. After a short demonstration, we worked in pairs and made a complete meal ourselves. I was worried about having to buy unusual ingredients afterwards, but everything we used was available in an ordinary supermarket. The class wasn't cheap, though. I'd recommend it to someone who wants confidence in the kitchen, rather than someone who just wants an inexpensive night out with friends.",
+      "questions": [
+        {
+          "prompt": "What did participants mainly do?",
+          "options": [
+            "Watch a long demonstration",
+            "Shop for ingredients",
+            "Prepare food themselves"
+          ],
+          "answer": 2,
+          "why": "worked in pairs and made … ourselves を prepare food themselves と言い換える。"
+        },
+        {
+          "prompt": "Who would benefit most, according to the speaker?",
+          "options": [
+            "Someone wanting to feel more confident cooking",
+            "Someone wanting rare ingredients",
+            "Someone seeking the cheapest evening out"
+          ],
+          "answer": 0,
+          "why": "wants confidence in the kitchen。値段の安さは勧める理由ではない。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "Visitors to the new art space do not need to book tickets for the main exhibition. However, workshops have limited places and must be reserved online. The space encourages visitors to take photographs for personal use, provided they turn off the flash. Large bags must be left in the free lockers near the entrance. Although entry is free, donations help pay for school visits. The organisers hope that removing the ticket price will make local residents feel more comfortable dropping in regularly.\n\nOn busy days, timed entry may still be introduced temporarily to prevent overcrowding. This would apply to the building, not just the workshops, and would be announced on the website that morning. The photography policy may also vary for borrowed exhibitions because some lenders protect image rights. Signs beside each gallery entrance show any additional restrictions, so visitors should not assume that one rule applies everywhere.",
+      "questions": [
+        {
+          "prompt": "Which activity requires an advance reservation?",
+          "options": [
+            "Seeing the main exhibition",
+            "Taking photographs",
+            "Joining a workshop"
+          ],
+          "answer": 2,
+          "why": "workshops … must be reserved online。book と reserve はここでは同義。"
+        },
+        {
+          "prompt": "Why is entry free?",
+          "options": [
+            "To attract only professional artists",
+            "To stop school visits",
+            "To encourage frequent informal visits"
+          ],
+          "answer": 2,
+          "why": "dropping in regularly＝気軽に繰り返し訪れる。"
+        },
+        {
+          "prompt": "When might visitors need a timed entry slot?",
+          "options": [
+            "Every time they attend a workshop",
+            "When the building is expected to be overcrowded",
+            "Whenever they bring a large bag"
+          ],
+          "answer": 1,
+          "why": "busy days に overcrowding を防ぐため一時導入される可能性がある。常時ではない。"
+        },
+        {
+          "prompt": "Why might photography rules differ between galleries?",
+          "options": [
+            "Some works belong to lenders with different conditions",
+            "Flash is required in borrowed exhibitions",
+            "The lockers are inside the galleries"
+          ],
+          "answer": 0,
+          "why": "borrowed exhibitionsでは貸し手が画像権利を保護する場合があるため。"
+        }
+      ]
+    },
+    "words": [
+      "practical＝実践的な",
+      "provided＝〜という条件で",
+      "drop in＝気軽に立ち寄る"
+    ]
+  },
+  {
+    "day": 4,
+    "title": "理由と結果",
+    "focus": "because / so / rather than のつながりを追う",
+    "listening": {
+      "text": "We received several complaints about deliveries arriving late, so we checked the last month's orders. At first, we suspected the new delivery company. In fact, most parcels had left our warehouse a day later than planned because our address-checking software kept stopping. The delivery company usually completed its part on time. We're fixing the software this week. Until then, an extra member of staff will check addresses manually. Changing delivery companies wouldn't solve the problem we've actually found.",
+      "questions": [
+        {
+          "prompt": "What caused most of the delays?",
+          "options": [
+            "The delivery company lost parcels",
+            "Customers changed their addresses",
+            "Orders left the warehouse late"
+          ],
+          "answer": 2,
+          "why": "software kept stopping により warehouse 出発が遅れた。最初の疑いと調査結果を区別。"
+        },
+        {
+          "prompt": "What is the temporary solution?",
+          "options": [
+            "Have someone check addresses manually",
+            "Stop taking orders",
+            "Use another delivery company"
+          ],
+          "answer": 0,
+          "why": "Until then … check addresses manually が修理完了までの対応。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "The community garden has replaced its weekly watering schedule with a weather-based system. Previously, volunteers watered every Saturday, even after heavy rain. The new system asks them to check the soil before adding water. This should reduce waste and protect plants from getting too much water. It does not mean volunteers can stop visiting during rainy weeks: they still need to inspect the plants and remove weeds. The garden coordinator will review water use at the end of the summer.\n\nThe change has required more flexible communication. Instead of assigning people several weeks ahead, the coordinator sends a message on Thursday based on the forecast. Volunteers who cannot attend are not penalised, although the system works only if enough people respond. Early figures show lower water use, but the coordinator says plant health over the whole season matters more than a single month's savings.",
+      "questions": [
+        {
+          "prompt": "What is the expected benefit of the new system?",
+          "options": [
+            "Less unnecessary watering",
+            "No need for volunteers",
+            "Fewer types of plants"
+          ],
+          "answer": 0,
+          "why": "reduce waste と too much water を避けることが利点。"
+        },
+        {
+          "prompt": "What must volunteers still do in rainy weeks?",
+          "options": [
+            "Close the garden",
+            "Inspect plants and remove weeds",
+            "Water every plant"
+          ],
+          "answer": 1,
+          "why": "does not mean … stop visiting の後に残る仕事が明記されている。"
+        },
+        {
+          "prompt": "What new difficulty does the system create?",
+          "options": [
+            "Volunteers receive less advance notice",
+            "Plants are never inspected",
+            "Weather forecasts are no longer used"
+          ],
+          "answer": 0,
+          "why": "木曜に予報を基に連絡するため、数週間前の固定予定より通知が遅くなる。"
+        },
+        {
+          "prompt": "What does the coordinator consider the better measure of success?",
+          "options": [
+            "One month of low water use",
+            "Plant health across the season",
+            "The number of Saturday visits"
+          ],
+          "answer": 1,
+          "why": "single month's savings より plant health over the whole season が重要と述べる。"
+        }
+      ]
+    },
+    "words": [
+      "suspect＝疑う",
+      "manually＝手作業で",
+      "soil＝土壌"
+    ]
+  },
+  {
+    "day": 5,
+    "title": "例外を見落とさない",
+    "focus": "unless / except / only に印をつける",
+    "listening": {
+      "text": "Your gym membership lets you attend most classes without paying extra. The exception is the small-group swimming course, which has a separate fee because places are limited to four people. You can cancel a class booking free of charge until six hours before it starts. After that, a fee applies unless the instructor cancels the class. Please note that simply failing to arrive counts as a late cancellation. If you are unsure you'll make it, remove your booking early so another member can use the place.",
+      "questions": [
+        {
+          "prompt": "Which class costs extra?",
+          "options": [
+            "All evening classes",
+            "Every class with an instructor",
+            "The small-group swimming course"
+          ],
+          "answer": 2,
+          "why": "The exception … separate fee が追加料金の対象。"
+        },
+        {
+          "prompt": "When is a late cancellation free?",
+          "options": [
+            "When the instructor cancels",
+            "When the member forgets",
+            "When the member arrives late"
+          ],
+          "answer": 0,
+          "why": "unless the instructor cancels は料金の例外条件。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "Employees may borrow a company laptop for personal study at weekends, as long as it is returned before nine on Monday morning. Devices containing confidential client files are excluded from this scheme. Anyone borrowing a laptop must record its number in the equipment register and report damage immediately. Software cannot be installed without permission from the IT team. The scheme is intended to support learning; it does not give employees permission to use company devices for paid work for other organisations.\n\nBorrowers must also take reasonable steps to protect equipment in transit. The company provides padded cases, but it will not pay for damage caused by leaving a laptop unattended in a vehicle. Normal technical faults should be reported through the usual help desk and do not automatically make the borrower responsible. Managers will review the scheme if weekend loans begin to reduce the supply of devices needed for Monday work.",
+      "questions": [
+        {
+          "prompt": "Which laptop may NOT be borrowed under the scheme?",
+          "options": [
+            "One holding confidential client files",
+            "One returned on Sunday",
+            "One used for language study"
+          ],
+          "answer": 0,
+          "why": "Devices containing confidential client files are excluded。"
+        },
+        {
+          "prompt": "What is required before installing software?",
+          "options": [
+            "Payment to another organisation",
+            "Permission from IT",
+            "A Monday morning meeting"
+          ],
+          "answer": 1,
+          "why": "cannot be installed without permission。二重の否定に注意。"
+        },
+        {
+          "prompt": "When might a borrower be held responsible for damage?",
+          "options": [
+            "When a normal technical fault occurs",
+            "When the laptop is left unattended in a vehicle",
+            "Whenever a padded case is used"
+          ],
+          "answer": 1,
+          "why": "車内に放置して生じた損傷は会社が負担しない。通常の技術的不具合とは区別される。"
+        },
+        {
+          "prompt": "Why might managers reconsider the scheme?",
+          "options": [
+            "Weekend loans could leave too few laptops for work",
+            "Employees have stopped studying",
+            "The IT team wants paid outside work"
+          ],
+          "answer": 0,
+          "why": "Monday work に必要な端末の供給を減らす場合は見直すとある。"
+        }
+      ]
+    },
+    "words": [
+      "exception＝例外",
+      "unless＝〜でない限り",
+      "be excluded＝対象外である"
+    ]
+  },
+  {
+    "day": 6,
+    "title": "言葉の裏の意図",
+    "focus": "依頼・遠回しな不満を根拠から読む",
+    "listening": {
+      "text": "Thanks for sending the draft so quickly. The examples are clear, and I like the shorter introduction. I'm less sure about the final section, though. We promise that customers will save money immediately, but we only have results from a small trial. Could we make that claim a little more cautious? I don't think we need to start again. If you revise those last two paragraphs today, I can check them tomorrow morning and we should still meet Friday's deadline.",
+      "questions": [
+        {
+          "prompt": "What does the speaker want changed?",
+          "options": [
+            "The whole report",
+            "The introduction",
+            "The strength of the final claim"
+          ],
+          "answer": 2,
+          "why": "make that claim a little more cautious。全面改稿は不要と言っている。"
+        },
+        {
+          "prompt": "How does the speaker view the deadline?",
+          "options": [
+            "It has already been missed",
+            "It must be moved to next month",
+            "It can probably still be met"
+          ],
+          "answer": 2,
+          "why": "should still meet Friday’s deadline は見込み。確実という断言ではない。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "A customer wrote: 'The hotel room was clean and the staff were welcoming. However, the website describes the building as a short walk from the station. It took us twenty-five minutes with our bags, mostly uphill. We would have booked a taxi if we had known. Please give a distance or an approximate walking time on the website. This would help future guests plan their arrival more realistically.' The customer did not request a refund or question the quality of the room.\n\nThe hotel manager replied that the phrase had been based on the distance shown on a map, not on a walk with luggage. She agreed that this was not a useful measure for arriving guests. The website will now state both the distance and a typical walking time, and reception staff will send taxi information with booking confirmations. The hill itself cannot be changed, but expectations can be.",
+      "questions": [
+        {
+          "prompt": "What is the customer mainly asking the hotel to do?",
+          "options": [
+            "Refund the room charge",
+            "Move closer to the station",
+            "Describe its location more precisely"
+          ],
+          "answer": 2,
+          "why": "give a distance or an approximate walking time が依頼。"
+        },
+        {
+          "prompt": "Why does the customer mention the bags and hill?",
+          "options": [
+            "To explain why the walk was harder than expected",
+            "To show that the station was closed",
+            "To praise the exercise facilities"
+          ],
+          "answer": 0,
+          "why": "short walk という説明と実際の負担の差を具体化している。"
+        },
+        {
+          "prompt": "Why had the hotel called it a short walk?",
+          "options": [
+            "Staff had timed guests carrying bags",
+            "It relied on map distance",
+            "The station recently moved"
+          ],
+          "answer": 1,
+          "why": "map上の距離を基準にしていた。荷物を持った実測ではない。"
+        },
+        {
+          "prompt": "What broader lesson does the final sentence express?",
+          "options": [
+            "Hotels should remove all hills",
+            "Accurate information can help guests plan",
+            "Every guest should walk from the station"
+          ],
+          "answer": 1,
+          "why": "地形は変えられなくても、正確な情報で期待と計画は調整できるという意味。"
+        }
+      ]
+    },
+    "words": [
+      "cautious＝慎重な",
+      "claim＝主張",
+      "approximately＝およそ"
+    ]
+  },
+  {
+    "day": 7,
+    "title": "第1週チェック",
+    "focus": "初見で解き、間違いを「数字・言い換え・条件・推論」に分類する",
+    "listening": {
+      "text": "A quick update about Saturday's volunteering event. The river path is too wet to work on safely, so we'll clean the playground instead. Meet at the school gate at the usual time, nine thirty. You don't need to bring tools, but please bring your own lunch. We'll finish by one unless heavy rain forces us to stop earlier. People who signed up only for the river project can withdraw; just let us know by Friday so we can organise the teams.",
+      "questions": [
+        {
+          "prompt": "What has changed?",
+          "options": [
+            "The meeting time",
+            "The work location",
+            "The need to register"
+          ],
+          "answer": 1,
+          "why": "river path から playground に変更。集合時刻は usual time。"
+        },
+        {
+          "prompt": "What should someone who no longer wants to join do?",
+          "options": [
+            "Bring tools on Saturday",
+            "Notify the organisers by Friday",
+            "Wait at the river"
+          ],
+          "answer": 1,
+          "why": "withdraw … let us know by Friday が辞退の手続き。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "The museum is testing an evening opening once a month. Its director hopes to attract people whose working hours prevent daytime visits. During the first evening, ticket sales were lower than expected, but visitors stayed longer and many joined a guided tour. The director says one evening is not enough to judge demand. The trial will continue for five more months, after which the museum will compare staffing costs with income and visitor feedback before deciding whether to extend it.\n\nA local employers' group has offered to promote the remaining evenings, but the director does not want free publicity to distort the results. Instead, the museum will use the same advertising budget each month and vary only one feature, such as the tour schedule. This should make comparisons more meaningful, although seasonal events in the town may still influence attendance.",
+      "questions": [
+        {
+          "prompt": "Why does the director want to continue the trial?",
+          "options": [
+            "Staff costs have disappeared",
+            "The first evening proved it profitable",
+            "More evidence is needed"
+          ],
+          "answer": 2,
+          "why": "one evening is not enough to judge demand。初回だけで判断しない。"
+        },
+        {
+          "prompt": "Who is the trial mainly intended to reach?",
+          "options": [
+            "Only school groups",
+            "Visitors who dislike guided tours",
+            "People unable to visit during the day because of work"
+          ],
+          "answer": 2,
+          "why": "working hours prevent daytime visits を言い換えた選択肢。"
+        },
+        {
+          "prompt": "Why will the museum keep its advertising budget the same?",
+          "options": [
+            "To make monthly comparisons fairer",
+            "To prevent all employers from attending",
+            "Because tours have been cancelled"
+          ],
+          "answer": 0,
+          "why": "宣伝条件を一定にして、変える要素を一つに絞り比較しやすくするため。"
+        },
+        {
+          "prompt": "What limitation may still affect the comparison?",
+          "options": [
+            "The museum has no evening staff",
+            "Seasonal events may change attendance",
+            "Visitors cannot join tours"
+          ],
+          "answer": 1,
+          "why": "townの季節イベントが来館者数に影響し得ると明記される。"
+        }
+      ]
+    },
+    "words": [
+      "withdraw＝参加を取りやめる",
+      "judge demand＝需要を判断する",
+      "feedback＝意見・反応"
+    ]
+  },
+  {
+    "day": 8,
+    "title": "比較を正確に読む",
+    "focus": "安い・速い・便利を混同しない",
+    "listening": {
+      "text": "I've compared the two venues for our team event. The central hotel charges less for the room, but we'd have to pay separately for lunch and the projector. The conference centre includes both, so its total price is slightly lower. Getting there takes longer for most of us, though. My suggestion is to choose the centre and start half an hour later. That would keep us within budget without making people leave home earlier. We should confirm whether the later start is available before booking.",
+      "questions": [
+        {
+          "prompt": "Why does the speaker prefer the conference centre?",
+          "options": [
+            "It is closer to everyone",
+            "Its room-only price is lower",
+            "Its total cost is lower"
+          ],
+          "answer": 2,
+          "why": "昼食・機材を含めた total price で比較している。部屋代だけではホテルが安い。"
+        },
+        {
+          "prompt": "What still needs checking?",
+          "options": [
+            "Whether they can start later",
+            "Whether lunch can be removed",
+            "Whether the hotel has rooms"
+          ],
+          "answer": 0,
+          "why": "confirm whether the later start is available before booking。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "Two online courses teach the same basic photography skills. Course A provides recorded lessons that learners can watch whenever they like. Course B has live evening sessions and costs more, but includes personal feedback on three assignments. Neither course requires an expensive camera. For learners with unpredictable schedules, flexibility may matter more than feedback. Those who find it difficult to study alone may prefer regular live sessions. The best choice therefore depends on how a learner studies, rather than simply on the number of lessons.\n\nBoth providers offer a one-week sample lesson. The reviewer recommends using it to test not only the teaching style but also whether study time fits naturally into a normal week. Completion statistics appear higher for Course B, yet its learners may have had more free time from the beginning. The figures therefore support asking further questions rather than declaring one format superior.",
+      "questions": [
+        {
+          "prompt": "Who would probably prefer Course A?",
+          "options": [
+            "Someone needing fixed live sessions",
+            "Someone with an unpredictable timetable",
+            "Someone requiring personal feedback"
+          ],
+          "answer": 1,
+          "why": "録画を好きな時に見られるので、不規則な予定に合う。"
+        },
+        {
+          "prompt": "What is the writer’s main conclusion?",
+          "options": [
+            "An expensive camera is essential",
+            "Study habits should guide the choice",
+            "The cheaper course is always better"
+          ],
+          "answer": 1,
+          "why": "depends on how a learner studies が結論。"
+        },
+        {
+          "prompt": "What should learners test during the sample week?",
+          "options": [
+            "Only the camera price",
+            "Teaching style and practical fit with their schedule",
+            "Whether Course B has more lessons"
+          ],
+          "answer": 1,
+          "why": "teaching styleに加え、通常週に学習時間が自然に収まるかを試す。"
+        },
+        {
+          "prompt": "Why should the completion figures be treated cautiously?",
+          "options": [
+            "The courses teach different subjects",
+            "Course A published no lessons",
+            "The groups may have differed before starting"
+          ],
+          "answer": 2,
+          "why": "Course Bの学習者は元から余暇が多かった可能性があり、単純比較できない。"
+        }
+      ]
+    },
+    "words": [
+      "within budget＝予算内で",
+      "assignment＝課題",
+      "flexibility＝柔軟性"
+    ]
+  },
+  {
+    "day": 9,
+    "title": "態度をつかむ",
+    "focus": "肯定の後の but / though に注目する",
+    "listening": {
+      "text": "The new booking app is certainly easier to navigate. I found the right appointment in seconds, and the confirmation arrived immediately. What bothers me is that it asks for access to my contacts before I can finish booking. I can't see why a haircut requires that information. I'd happily keep using the app if that step became optional. Until then, I'll probably phone the salon, even though it takes longer. Convenience is useful, but it isn't my only consideration.",
+      "questions": [
+        {
+          "prompt": "What is the speaker’s attitude towards the app?",
+          "options": [
+            "Completely satisfied",
+            "Unconcerned about personal information",
+            "Positive about usability but concerned about access to data"
+          ],
+          "answer": 2,
+          "why": "操作性は評価しつつ contacts へのアクセスに不満。"
+        },
+        {
+          "prompt": "What change would encourage continued use?",
+          "options": [
+            "Requiring faster bookings",
+            "Adding more appointment reminders",
+            "Making contact access optional"
+          ],
+          "answer": 2,
+          "why": "if that step became optional が継続利用の条件。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "The town's cycle-lane plan has received a cautious welcome from local shop owners. Many support making the street safer, but they worry that removing short-stay parking could discourage customers collecting heavy purchases. The council has suggested adding loading bays on nearby streets. Shop owners say the idea could help, provided the bays are close enough and rules are clearly displayed. They have asked to see the detailed design before supporting the final proposal. Their response is conditional, rather than a rejection of cycling improvements.\n\nDelivery companies have also asked for space near the shops, so the proposed bays would serve more than one purpose. That could make them busy at exactly the times customers need them. The council is considering thirty-minute limits and monitoring during the first month. Shop owners say enforcement matters: a loading bay that is permanently occupied would solve little, even if it looks suitable on a plan.",
+      "questions": [
+        {
+          "prompt": "How do shop owners view the plan?",
+          "options": [
+            "They reject any cycling improvements",
+            "They support every detail already",
+            "They are open to it but have conditions"
+          ],
+          "answer": 2,
+          "why": "cautious welcome と conditional が態度。全面支持でも全面拒否でもない。"
+        },
+        {
+          "prompt": "What does “the idea” refer to?",
+          "options": [
+            "Increasing heavy purchases",
+            "Removing all shops",
+            "Adding nearby loading bays"
+          ],
+          "answer": 2,
+          "why": "直前の council has suggested adding loading bays を指す。"
+        },
+        {
+          "prompt": "What possible conflict concerns the shop owners?",
+          "options": [
+            "Delivery vehicles and customers may need the bays at the same time",
+            "Cyclists want to use the shops as parking",
+            "The council plans to remove every loading bay"
+          ],
+          "answer": 0,
+          "why": "配送業者と重い商品を受け取る顧客の利用時間が重なる可能性。"
+        },
+        {
+          "prompt": "What does the last sentence imply?",
+          "options": [
+            "A design works only if its rules operate in practice",
+            "Plans are always more reliable than trials",
+            "Monitoring would make bays unnecessary"
+          ],
+          "answer": 0,
+          "why": "図面上適切でも常時占有されれば役立たないため、運用と取締りが必要。"
+        }
+      ]
+    },
+    "words": [
+      "optional＝任意の",
+      "consideration＝考慮すること",
+      "conditional＝条件付きの"
+    ]
+  },
+  {
+    "day": 10,
+    "title": "指示語を追う",
+    "focus": "this / they / it が何を指すか確かめる",
+    "listening": {
+      "text": "We tried sending all customer questions to one shared inbox. This made it easier to see what had arrived, but it created another problem: several people sometimes answered the same message. To prevent that, we've added a simple rule. Whoever starts handling a question puts their name beside it. They don't have to solve it immediately, but they become responsible for keeping the customer updated. We'll review the system next week; there's no need to buy new software unless this change fails to help.",
+      "questions": [
+        {
+          "prompt": "What problem did the shared inbox create?",
+          "options": [
+            "Customers had to buy software",
+            "Nobody could see new messages",
+            "Some questions received multiple replies"
+          ],
+          "answer": 2,
+          "why": "several people … answered the same message が重複返信。"
+        },
+        {
+          "prompt": "What must the named person do?",
+          "options": [
+            "Review software prices today",
+            "Solve every question immediately",
+            "Keep the customer informed"
+          ],
+          "answer": 2,
+          "why": "responsible for keeping the customer updated。即解決は必須ではない。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "A school began lending musical instruments to beginners. The instruments are donated by local residents and checked by a repair specialist before use. This makes lessons accessible to families who cannot afford to buy one immediately. Students can keep an instrument for one term, then renew the loan if nobody else is waiting. The school also offers maintenance sessions. These teach students how to care for borrowed equipment, reducing damage and helping the instruments remain available for future learners.\n\nDemand is greatest for guitars, and several are already reserved for the next term. The school is considering shorter first loans for popular instruments, but teachers warn that beginners need enough time to build a routine. They suggest offering group practice rooms instead. This would let students without quiet space at home practise regularly without reducing the length of their loan.",
+      "questions": [
+        {
+          "prompt": "What does “These” in the final sentence refer to?",
+          "options": [
+            "Future learners",
+            "Local residents",
+            "Maintenance sessions"
+          ],
+          "answer": 2,
+          "why": "直前の maintenance sessions が、手入れの仕方を教える。"
+        },
+        {
+          "prompt": "When may a student renew a loan?",
+          "options": [
+            "When there is no waiting borrower",
+            "Whenever they pay for repairs",
+            "Only after buying an instrument"
+          ],
+          "answer": 0,
+          "why": "if nobody else is waiting が延長条件。"
+        },
+        {
+          "prompt": "Why are teachers cautious about shorter loans?",
+          "options": [
+            "Beginners need time to establish regular practice",
+            "Guitars cannot be repaired",
+            "Practice rooms are already full"
+          ],
+          "answer": 0,
+          "why": "初心者が習慣を作るのに十分な時間が必要だから。"
+        },
+        {
+          "prompt": "What problem would group practice rooms address?",
+          "options": [
+            "A lack of suitable practice space at home",
+            "The cost of donating instruments",
+            "Waiting for repair checks"
+          ],
+          "answer": 0,
+          "why": "自宅に静かな場所がない生徒も定期的に練習できる。"
+        }
+      ]
+    },
+    "words": [
+      "responsible for＝〜に責任がある",
+      "renew＝更新する",
+      "maintenance＝手入れ・保守"
+    ]
+  },
+  {
+    "day": 11,
+    "title": "事実と推測",
+    "focus": "分かったことと、まだ分からないことを分ける",
+    "listening": {
+      "text": "Sales increased after we changed the product packaging, which is encouraging. But I wouldn't attribute the entire rise to the new design. We also reduced the price that month, and a popular blogger mentioned the product. Customers in our survey liked the clearer label, yet that doesn't tell us why they bought it. Before spending money on redesigning the whole range, I'd test the new packaging on one more product while keeping its price unchanged. That should give us a clearer comparison.",
+      "questions": [
+        {
+          "prompt": "Why is the speaker cautious about the sales increase?",
+          "options": [
+            "Other changes may have contributed",
+            "No products were sold",
+            "The survey showed everyone disliked the label"
+          ],
+          "answer": 0,
+          "why": "値下げと blogger の紹介もあり、包装だけの効果と断定できない。"
+        },
+        {
+          "prompt": "What does the speaker propose?",
+          "options": [
+            "Stop surveying customers",
+            "Test another product without changing its price",
+            "Redesign the whole range immediately"
+          ],
+          "answer": 1,
+          "why": "one more product while keeping its price unchanged が次の検証。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "A workplace survey found that employees who used the office garden reported lower stress than those who did not. The company described the result as promising, but the survey did not show that the garden caused the difference. People with lighter workloads may have had more time to visit it. The company will keep the garden open and invite more employees to use it. It also plans to ask about workload in the next survey, so that the results can be interpreted more carefully.\n\nTo improve the next survey, researchers will invite employees at random rather than relying only on volunteers. They will record how often participants visit the garden and compare stress levels over time. Even this design cannot remove every difference between people, but it can reduce the risk of confusing interest in the garden with its effects. Management has promised to publish negative as well as positive results.",
+      "questions": [
+        {
+          "prompt": "What can be concluded from the survey?",
+          "options": [
+            "The garden definitely reduced everyone’s stress",
+            "Garden users reported less stress",
+            "Garden users worked longer hours"
+          ],
+          "answer": 1,
+          "why": "reported lower stress は観察事実。因果関係は本文で否定されている。"
+        },
+        {
+          "prompt": "Why will the next survey ask about workload?",
+          "options": [
+            "To examine another possible explanation",
+            "To close the garden",
+            "To stop employees taking breaks"
+          ],
+          "answer": 0,
+          "why": "lighter workloads が別の説明となり得るため。"
+        },
+        {
+          "prompt": "Why will employees be invited at random?",
+          "options": [
+            "To reduce volunteer-related bias",
+            "To guarantee that stress disappears",
+            "To close the garden to interested staff"
+          ],
+          "answer": 0,
+          "why": "希望者だけでは元々の関心などが結果に混ざるため、random invitationで偏りを減らす。"
+        },
+        {
+          "prompt": "What does management's promise support?",
+          "options": [
+            "Selective reporting of good news",
+            "Transparent reporting of the findings",
+            "Immediate proof of causation"
+          ],
+          "answer": 1,
+          "why": "negative resultsもpositive resultsも公表するため透明性を高める。"
+        }
+      ]
+    },
+    "words": [
+      "attribute A to B＝AをBの結果と考える",
+      "contribute＝一因となる",
+      "interpret＝解釈する"
+    ]
+  },
+  {
+    "day": 12,
+    "title": "条件付きの決定",
+    "focus": "決定済み・提案中・条件付きの違いを読む",
+    "listening": {
+      "text": "We can offer you the flat from the first of June, provided your references arrive by next Wednesday. The landlord has agreed to repaint the bedroom, but replacing the kitchen cupboards hasn't been approved. If you want that work done before moving in, the start date may need to change. My advice is to secure the flat first and discuss the cupboards later. I can send you the draft agreement today, though please don't treat it as confirmation until we've checked the references.",
+      "questions": [
+        {
+          "prompt": "What must happen before the offer is confirmed?",
+          "options": [
+            "The references must be checked",
+            "The cupboards must be replaced",
+            "The tenant must repaint the room"
+          ],
+          "answer": 0,
+          "why": "don’t treat it as confirmation until … checked the references。"
+        },
+        {
+          "prompt": "Which improvement has already been agreed?",
+          "options": [
+            "Repainting the bedroom",
+            "Changing the moving date",
+            "Replacing all kitchen cupboards"
+          ],
+          "answer": 0,
+          "why": "has agreed to repaint と hasn’t been approved を対比。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "The university will run a weekend writing workshop if at least twelve students register by Friday. Places are limited to twenty, and priority will go to students preparing their final projects. Other students may join if spaces remain after the deadline. Registration is an expression of interest; payment will only be requested once the workshop is confirmed. Anyone who needs wheelchair access should mention this on the form so that an appropriate room can be arranged. The venue has not yet been selected.\n\nIf the workshop goes ahead, students will receive preparatory material on Monday. The fee covers teaching and lunch but not travel. Students who withdraw after confirming payment may receive a refund only if their place can be filled. The organiser advises applicants not to make non-refundable travel arrangements until they receive the final confirmation email.",
+      "questions": [
+        {
+          "prompt": "What determines whether the workshop will run?",
+          "options": [
+            "All places being sold",
+            "Payment before registration",
+            "At least twelve registrations by Friday"
+          ],
+          "answer": 2,
+          "why": "if at least twelve … by Friday が開催条件。定員20とは別。"
+        },
+        {
+          "prompt": "Why should access requirements be stated on the form?",
+          "options": [
+            "To avoid paying the fee",
+            "To help select a suitable room",
+            "To receive automatic priority"
+          ],
+          "answer": 1,
+          "why": "so that an appropriate room can be arranged が目的。"
+        },
+        {
+          "prompt": "What is NOT included in the workshop fee?",
+          "options": [
+            "Lunch",
+            "Teaching",
+            "Travel"
+          ],
+          "answer": 2,
+          "why": "fee covers teaching and lunch but not travel と明記される。"
+        },
+        {
+          "prompt": "Why should students wait before booking non-refundable travel?",
+          "options": [
+            "The workshop may not reach the minimum registration",
+            "The venue has no wheelchair access",
+            "Final projects have been cancelled"
+          ],
+          "answer": 0,
+          "why": "12人に達しなければ実施されないため、最終確認前の返金不可予約を避ける。"
+        }
+      ]
+    },
+    "words": [
+      "provided＝〜ならば",
+      "reference＝推薦・照会情報",
+      "expression of interest＝参加意向の表明"
+    ]
+  },
+  {
+    "day": 13,
+    "title": "文脈の語彙",
+    "focus": "知らない語を前後の具体例から推測する",
+    "listening": {
+      "text": "The project needs a more realistic schedule. At the moment, there's no buffer between finishing the interviews and presenting the findings. If even one participant changes their appointment, we'll be rushing the analysis. I'm not suggesting that we move the presentation yet. We could start the interviews two days earlier instead, giving ourselves some room for unexpected delays. That would require confirming participants this week. It's a small adjustment now that could prevent a much bigger problem near the deadline.",
+      "questions": [
+        {
+          "prompt": "What does “buffer” mean in this context?",
+          "options": [
+            "Extra time for possible delays",
+            "A list of participants",
+            "A presentation device"
+          ],
+          "answer": 0,
+          "why": "遅延すると分析を急ぐ説明、room for unexpected delays から時間の余裕と分かる。"
+        },
+        {
+          "prompt": "What change is suggested?",
+          "options": [
+            "Starting interviews earlier",
+            "Cancelling the analysis",
+            "Moving the presentation immediately"
+          ],
+          "answer": 0,
+          "why": "start the interviews two days earlier。発表延期はまだ提案していない。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "The café's new menu is deliberately modest: it offers six main dishes rather than the previous twenty. This streamlined approach allows the kitchen to buy fewer ingredients and prepare them more consistently. Some regular customers miss the wider choice, but the owner says food waste has fallen. She is not ruling out adding dishes in future. For now, however, she wants the team to master the shorter menu before expanding it. She sees the change as a way to improve reliability, not simply to reduce spending.\n\nThe smaller range has also changed staff training. Previously, new cooks learned many recipes but prepared each one only occasionally. They now repeat the same dishes often enough to notice small errors and improve timing. The owner accepts that a shorter menu may disappoint customers seeking variety; she hopes seasonal specials can offer some change without returning to the complexity of twenty permanent dishes.",
+      "questions": [
+        {
+          "prompt": "What does “streamlined” most nearly mean here?",
+          "options": [
+            "Simplified to work efficiently",
+            "Made more complicated",
+            "Made cheaper by using poor ingredients"
+          ],
+          "answer": 0,
+          "why": "20から6品へ絞り、材料と調理を安定させる文脈。"
+        },
+        {
+          "prompt": "What is the owner’s current priority?",
+          "options": [
+            "Preparing the smaller menu consistently well",
+            "Opening another café",
+            "Restoring all twenty dishes"
+          ],
+          "answer": 0,
+          "why": "master the shorter menu before expanding it と reliability が根拠。"
+        },
+        {
+          "prompt": "How has the shorter menu affected training?",
+          "options": [
+            "Cooks repeat dishes and refine their performance",
+            "New cooks no longer learn recipes",
+            "Timing has become impossible to measure"
+          ],
+          "answer": 0,
+          "why": "同じ料理を繰り返し、小さな誤りや時間配分を改善できる。"
+        },
+        {
+          "prompt": "What compromise may provide variety?",
+          "options": [
+            "Restoring all twenty dishes permanently",
+            "Adding occasional seasonal specials",
+            "Changing the menu every day"
+          ],
+          "answer": 1,
+          "why": "seasonal specialsで変化を出しつつ、常設20品の複雑さには戻らない案。"
+        }
+      ]
+    },
+    "words": [
+      "buffer＝余裕・緩衝",
+      "streamlined＝無駄を省いた",
+      "rule out＝可能性を除外する"
+    ]
+  },
+  {
+    "day": 14,
+    "title": "第2週チェック",
+    "focus": "比較・指示語・条件・因果を組み合わせる",
+    "listening": {
+      "text": "The pilot mentoring scheme received good feedback, but only half the pairs met as often as planned. Several mentors said the monthly reporting form took too long. We could shorten it, although we still need enough information to spot problems. I suggest testing a three-question form next month before extending the scheme to other departments. The positive comments are worth taking seriously, but we also need to know whether people can maintain the arrangement when their normal workload increases.",
+      "questions": [
+        {
+          "prompt": "What is proposed for next month?",
+          "options": [
+            "Expanding to every department",
+            "Testing a shorter reporting form",
+            "Ending all reporting"
+          ],
+          "answer": 1,
+          "why": "three-question form … before extending が順序。"
+        },
+        {
+          "prompt": "What concern remains?",
+          "options": [
+            "Whether the forms need more questions",
+            "Whether everyone disliked mentoring",
+            "Whether participation can continue during busy periods"
+          ],
+          "answer": 2,
+          "why": "maintain … when … workload increases が継続性への懸念。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "The sports centre compared two ways of encouraging attendance. One group received weekly reminder messages; another received a discount for attending four times in a month. Attendance rose in both groups, but the discount group started with more frequent visitors. This makes a direct comparison difficult. The manager will repeat the trial with groups that have similar attendance histories. She also wants to check whether any improvement lasts after reminders or discounts stop, rather than judging success only during the trial.\n\nIn the repeated trial, participants will be assigned to groups rather than choosing an incentive. Researchers will also record cancelled visits, since booking a session is not the same as attending it. The centre hopes to learn whether reminders help people remember existing intentions, while discounts persuade them to form new habits. Those are related outcomes, but they are not identical.",
+      "questions": [
+        {
+          "prompt": "Why is the first comparison difficult to interpret?",
+          "options": [
+            "Both groups had identical histories",
+            "Nobody received reminders",
+            "The groups differed before the trial"
+          ],
+          "answer": 2,
+          "why": "discount group started with more frequent visitors。出発点が異なる。"
+        },
+        {
+          "prompt": "What additional outcome will the manager investigate?",
+          "options": [
+            "Whether all visitors want a discount",
+            "Whether gains continue after support ends",
+            "Which message is longest"
+          ],
+          "answer": 1,
+          "why": "lasts after reminders or discounts stop が追加の確認点。"
+        },
+        {
+          "prompt": "Why will participants be assigned to groups?",
+          "options": [
+            "To make the groups more comparable",
+            "To ensure everyone receives a discount",
+            "To prevent attendance from being recorded"
+          ],
+          "answer": 0,
+          "why": "自分で選ばせず割り当てることで、開始時点の差を小さくして比較する。"
+        },
+        {
+          "prompt": "What distinction does the centre want to examine?",
+          "options": [
+            "Remembering plans versus developing new habits",
+            "Booking online versus paying cash",
+            "Weekly messages versus monthly reports"
+          ],
+          "answer": 0,
+          "why": "remindersは既存の意図を思い出させ、discountsは新習慣を促す可能性という区別。"
+        }
+      ]
+    },
+    "words": [
+      "maintain＝維持する",
+      "attendance＝出席・利用",
+      "last＝続く"
+    ]
+  },
+  {
+    "day": 15,
+    "title": "譲歩と結論",
+    "focus": "although で認めた点と、最終主張を分ける",
+    "listening": {
+      "text": "I understand why people want every team meeting recorded. It's useful for colleagues in other time zones. On the other hand, some of our best discussions happen when people are willing to suggest unfinished ideas, and recording can make them more cautious. Rather than recording everything, I'd share a written summary of decisions and record only formal presentations. We could still arrange a short follow-up call for anyone who needs context. Access matters, but so does creating space for honest discussion.",
+      "questions": [
+        {
+          "prompt": "What is the speaker’s preferred approach?",
+          "options": [
+            "Record every discussion",
+            "Stop supporting remote colleagues",
+            "Share decision summaries and record presentations"
+          ],
+          "answer": 2,
+          "why": "Rather than … 以下に代案がある。"
+        },
+        {
+          "prompt": "Why might recording affect discussions?",
+          "options": [
+            "People may hesitate to share undeveloped ideas",
+            "Remote colleagues cannot use recordings",
+            "It always makes meetings longer"
+          ],
+          "answer": 0,
+          "why": "unfinished ideas を出す時に more cautious になると説明。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "Although digital tickets reduce paper use, they can create difficulties for visitors whose phones run out of battery. A theatre therefore continues to provide printed tickets on request. Its manager argues that sustainability should be pursued without making access unnecessarily difficult. Staff encourage digital tickets during booking but do not charge for paper copies. The theatre is also reviewing energy use, which the manager believes deserves at least as much attention as ticket materials. She regards paper reduction as one useful measure within a broader effort.\n\nAccessibility groups support the choice but have asked the theatre to explain the paper option more clearly. If customers discover it only after struggling online, the option is less useful. The theatre will add the information beside the ticket selector and train telephone staff to mention it. It will measure digital use, customer complaints, and total energy consumption rather than presenting one figure as a complete account of sustainability.",
+      "questions": [
+        {
+          "prompt": "What is the manager’s position?",
+          "options": [
+            "Printed tickets should be banned immediately",
+            "Environmental goals should be balanced with accessibility",
+            "Ticket paper is the only environmental issue"
+          ],
+          "answer": 1,
+          "why": "sustainability … without making access … difficult が中心。"
+        },
+        {
+          "prompt": "Why is energy use mentioned?",
+          "options": [
+            "To justify charging for paper",
+            "To illustrate the wider environmental effort",
+            "To show digital tickets use no energy"
+          ],
+          "answer": 1,
+          "why": "broader effort の一例で、紙以外も検討している。"
+        },
+        {
+          "prompt": "Why must the paper option be explained earlier?",
+          "options": [
+            "An unknown option cannot effectively improve access",
+            "Printed tickets use no resources",
+            "Telephone bookings are ending"
+          ],
+          "answer": 0,
+          "why": "困った後に初めて知るのでは利用しにくく、access改善になりにくい。"
+        },
+        {
+          "prompt": "How will the theatre assess sustainability?",
+          "options": [
+            "By counting paper tickets only",
+            "Using several environmental and customer measures",
+            "By ignoring energy consumption"
+          ],
+          "answer": 1,
+          "why": "digital use、complaints、energy consumptionを合わせて見る。"
+        }
+      ]
+    },
+    "words": [
+      "unfinished＝未完成の",
+      "on request＝希望すれば",
+      "pursue＝追求する"
+    ]
+  },
+  {
+    "day": 16,
+    "title": "提案の目的",
+    "focus": "何をするかに加え、なぜするかを答える",
+    "listening": {
+      "text": "Before we order new desks, I'd like us to borrow a few adjustable ones for a month. They look useful, but the staff who tried them at the exhibition only used them for a few minutes. A longer trial would show whether people actually change position during a normal working day. We should include colleagues with different roles, not just those who already want a standing desk. Otherwise, we may get enthusiastic feedback that doesn't represent the whole office. Purchasing can wait until we have that information.",
+      "questions": [
+        {
+          "prompt": "What is the main purpose of the proposed trial?",
+          "options": [
+            "To decorate the exhibition",
+            "To see how desks are used in normal work",
+            "To delay all office improvements indefinitely"
+          ],
+          "answer": 1,
+          "why": "normal working day の実際の使い方を確認したい。"
+        },
+        {
+          "prompt": "Why involve people with different roles?",
+          "options": [
+            "To make the trial shorter",
+            "To avoid collecting opinions",
+            "To obtain more representative feedback"
+          ],
+          "answer": 2,
+          "why": "doesn’t represent the whole office を避けるため。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "A neighbourhood group has placed temporary benches along a busy walking route. Instead of choosing permanent locations immediately, it will observe where people stop and ask users about comfort and safety. One bench is near a crossing, where older residents often pause. Another is beside a shop, but the owner worries it may obstruct deliveries. The group says the trial is intended to identify such conflicts early. Benches that prove useful can remain, while others can be moved before money is spent on permanent installation.\n\nDuring the first fortnight, the bench near the crossing was used frequently, especially in the afternoon. The shop-side bench was used less often but caused two delivery complaints. The group has moved it ten metres away and will continue observing. It cautions that low use does not necessarily mean a bench is unnecessary: rain, temporary roadworks, and poor signage may also influence the figures.",
+      "questions": [
+        {
+          "prompt": "Why are the benches temporary?",
+          "options": [
+            "No one is allowed to sit yet",
+            "The group wants to stop walking",
+            "Their usefulness and placement need testing"
+          ],
+          "answer": 2,
+          "why": "observe where people stop、conflicts early、moved before … permanent が理由。"
+        },
+        {
+          "prompt": "What concern is raised about one location?",
+          "options": [
+            "Older residents never use it",
+            "It could interfere with deliveries",
+            "It is too far from all shops"
+          ],
+          "answer": 1,
+          "why": "obstruct deliveries＝配送を妨げる。"
+        },
+        {
+          "prompt": "What happened to the shop-side bench?",
+          "options": [
+            "It was made permanent",
+            "It was moved after delivery complaints",
+            "It became the most popular bench"
+          ],
+          "answer": 1,
+          "why": "delivery complaintsを受けて10メートル移動した。"
+        },
+        {
+          "prompt": "Why does the group hesitate to interpret low use directly?",
+          "options": [
+            "Several temporary factors may affect use",
+            "Observation has already ended",
+            "Every bench must remain in its first position"
+          ],
+          "answer": 0,
+          "why": "雨、道路工事、標識など別要因でも利用数が下がり得る。"
+        }
+      ]
+    },
+    "words": [
+      "representative＝全体を代表する",
+      "obstruct＝妨げる",
+      "installation＝設置"
+    ]
+  },
+  {
+    "day": 17,
+    "title": "論点の変化",
+    "focus": "以前の考え→新しい情報→今の立場を追う",
+    "listening": {
+      "text": "At first I thought the repair service was too expensive. A new kettle costs only a little more, after all. Then the technician explained that the fee includes checking the cable, replacing the damaged switch, and a six-month guarantee. That changed my view, especially because I like the kettle I already own. I still wouldn't repair every cheap appliance, but in this case the price seems reasonable. Next time, I'll ask what's included before comparing repair costs with the price of a replacement.",
+      "questions": [
+        {
+          "prompt": "What changed the speaker’s opinion?",
+          "options": [
+            "Learning what the repair fee covers",
+            "Being offered a free new kettle",
+            "A reduction in the repair price"
+          ],
+          "answer": 0,
+          "why": "説明を聞いて That changed my view。値下げではない。"
+        },
+        {
+          "prompt": "What will the speaker do differently next time?",
+          "options": [
+            "Always replace every appliance",
+            "Ask about the scope of the service first",
+            "Avoid comparing prices"
+          ],
+          "answer": 1,
+          "why": "ask what’s included before comparing が今後の行動。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "An editor originally opposed publishing reader comments because she expected moderation to require too much staff time. After a limited trial, she found that clear rules and a delay before comments appeared kept the workload manageable. She now supports comments on selected articles. However, she does not favour opening every article to discussion, since some sensitive topics require closer supervision. Her position has shifted from general opposition to selective support, based on the trial rather than a belief that moderation is no longer necessary.\n\nThe trial also revealed that readers behaved differently across subjects. Comments on practical articles often added useful examples, whereas political pieces attracted repeated arguments between a small number of users. The editor plans to publish monthly moderation figures and invite reporters to recommend articles where discussion could add evidence. Selection will therefore depend on likely public value as well as staff capacity.",
+      "questions": [
+        {
+          "prompt": "How has the editor’s position changed?",
+          "options": [
+            "From opposition to conditional support",
+            "From support to complete opposition",
+            "From caution to removing all rules"
+          ],
+          "answer": 0,
+          "why": "general opposition to selective support と明記されている。"
+        },
+        {
+          "prompt": "What helped keep moderation manageable?",
+          "options": [
+            "Publishing every comment immediately",
+            "Avoiding all sensitive topics permanently",
+            "Clear rules and delayed publication of comments"
+          ],
+          "answer": 2,
+          "why": "clear rules and a delay before comments appeared が要因。"
+        },
+        {
+          "prompt": "Which articles produced particularly useful comments?",
+          "options": [
+            "Practical articles",
+            "All political articles",
+            "Articles without readers"
+          ],
+          "answer": 0,
+          "why": "practical articlesではuseful examplesが追加された。"
+        },
+        {
+          "prompt": "What two factors will guide the selection of articles?",
+          "options": [
+            "Length and publication date",
+            "Public value and moderation capacity",
+            "Advertising income and author age"
+          ],
+          "answer": 1,
+          "why": "likely public value と staff capacity の両方で判断する。"
+        }
+      ]
+    },
+    "words": [
+      "cover＝含む・負担する",
+      "manageable＝対処可能な",
+      "selective＝選択的な"
+    ]
+  },
+  {
+    "day": 18,
+    "title": "暗黙の前提",
+    "focus": "推論は本文から一歩だけ。外の常識を足さない",
+    "listening": {
+      "text": "The evening language course has plenty of applicants, but several people have asked whether they can bring their children. We don't have the staff or space to provide childcare at the centre. Rather than assume those applicants aren't committed, we could offer some sessions online. That won't solve every difficulty, and not everyone has a quiet room at home. Still, a mixed format might remove one barrier. I'd ask applicants about their circumstances before finalising the timetable and delivery method.",
+      "questions": [
+        {
+          "prompt": "What does the speaker imply about some applicants?",
+          "options": [
+            "They lack interest in languages",
+            "They may face practical barriers to attending",
+            "They all prefer studying alone"
+          ],
+          "answer": 1,
+          "why": "bring their children と childcare 不足から、意欲以外の参加障壁を推論できる。"
+        },
+        {
+          "prompt": "What should happen before the format is finalised?",
+          "options": [
+            "Applicants should be asked about their situations",
+            "A childcare centre must be built",
+            "Every session should be cancelled"
+          ],
+          "answer": 0,
+          "why": "ask applicants about their circumstances before finalising。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "A restaurant now lists smaller portions alongside its standard meals. The owner says customers should not have to choose between ordering more food than they want and ordering only a side dish. Smaller meals cost less, though not half as much, because preparation and service costs remain. Early feedback has come mainly from lunchtime customers, so the owner will wait before drawing conclusions about evening demand. The menu describes portion sizes neutrally, avoiding labels that suggest smaller meals are intended only for a particular age group.\n\nSales of smaller portions were strongest among office workers who wanted a light lunch, but families also ordered them for children. This supports the decision to avoid age-based labels. Some diners asked whether two small plates could be combined at a discount. The owner declined for now, explaining that the purpose is to offer flexible quantities, not to create a cheaper route to the same amount of food.",
+      "questions": [
+        {
+          "prompt": "What can be inferred about the owner’s aim?",
+          "options": [
+            "To offer portion choices to a broad range of customers",
+            "To restrict small meals to children",
+            "To make every meal half price"
+          ],
+          "answer": 0,
+          "why": "特定の年齢向けとしない表現と、量の選択肢を増やす理由が根拠。"
+        },
+        {
+          "prompt": "Why are smaller meals not half the price?",
+          "options": [
+            "Evening demand is already known",
+            "Customers demanded higher prices",
+            "Some costs do not fall in proportion to portion size"
+          ],
+          "answer": 2,
+          "why": "preparation and service costs remain。量が半分でも費用すべてが半分にはならない。"
+        },
+        {
+          "prompt": "What supports the neutral menu labels?",
+          "options": [
+            "Different kinds of customers order smaller portions",
+            "Only older diners buy them",
+            "Every portion costs exactly half"
+          ],
+          "answer": 0,
+          "why": "会社員と家族の子どもなど複数層が注文し、特定年齢向けではない。"
+        },
+        {
+          "prompt": "Why did the owner reject the combined discount?",
+          "options": [
+            "Small plates cannot be served together",
+            "It would undermine the portion policy's purpose",
+            "Families complained about flexibility"
+          ],
+          "answer": 1,
+          "why": "量の柔軟性が目的で、同量を安く買う制度にする意図ではない。"
+        }
+      ]
+    },
+    "words": [
+      "committed＝意欲・責任感のある",
+      "barrier＝障壁",
+      "portion＝一人前の量"
+    ]
+  },
+  {
+    "day": 19,
+    "title": "要約を選ぶ",
+    "focus": "一部だけ正しい選択肢より、全体を表す選択肢を選ぶ",
+    "listening": {
+      "text": "Our customer helpline answers calls more quickly now, which is good. But the average call is shorter too, and some customers say they have to phone again about the same issue. If we only reward speed, staff may feel pressure to end conversations before problems are resolved. I'd keep measuring waiting time, but also track repeat calls and ask whether the customer got a useful answer. The aim should be efficient resolution, not simply moving through the largest possible number of calls.",
+      "questions": [
+        {
+          "prompt": "Which best summarises the speaker’s message?",
+          "options": [
+            "Service should be judged by resolution as well as speed",
+            "Waiting time should never be measured",
+            "Short calls always mean excellent service"
+          ],
+          "answer": 0,
+          "why": "efficient resolution, not simply … number が結論。速さの測定自体は続ける。"
+        },
+        {
+          "prompt": "What could frequent repeat calls indicate?",
+          "options": [
+            "Every customer is satisfied",
+            "The original problem was not fully resolved",
+            "The helpline is permanently closed"
+          ],
+          "answer": 1,
+          "why": "phone again about the same issue と before problems are resolved が根拠。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "A review of a travel guide praises its clear maps and honest descriptions of accommodation. However, the reviewer notes that restaurant information becomes outdated quickly and suggests checking opening times elsewhere. The guide is most useful for understanding the layout and character of a destination before travelling, rather than making every daily decision during a trip. Its value lies in the stable background it provides. Readers who expect a printed book to reflect every recent change may therefore be disappointed, despite the quality of its research.\n\nThe guide includes a companion website where the publisher posts corrections submitted by readers. The reviewer found it helpful but noticed that rural businesses were updated less often than city ones. She recommends treating silence as a lack of new information, not proof that nothing has changed. Used together, the book and website offer orientation and updates, but travellers still need to confirm details that matter to their plans.",
+      "questions": [
+        {
+          "prompt": "Which is the best summary of the review?",
+          "options": [
+            "It is valuable for background, with limits on current details",
+            "It guarantees fully current restaurant information",
+            "The guide is useless because all its maps are wrong"
+          ],
+          "answer": 0,
+          "why": "stable background は評価し、変わる情報の限界を指摘している。"
+        },
+        {
+          "prompt": "What should readers verify separately?",
+          "options": [
+            "The author’s age",
+            "Restaurant opening times",
+            "The existence of all destinations"
+          ],
+          "answer": 1,
+          "why": "checking opening times elsewhere と具体的に助言。"
+        },
+        {
+          "prompt": "What weakness did the reviewer find in the website?",
+          "options": [
+            "It contains no reader corrections",
+            "Rural information is updated less consistently",
+            "It replaces the guide's maps"
+          ],
+          "answer": 1,
+          "why": "rural businessesはcity onesより更新頻度が低い。"
+        },
+        {
+          "prompt": "What does the reviewer advise travellers to do?",
+          "options": [
+            "Assume unchanged entries are accurate",
+            "Confirm important practical details",
+            "Use only the printed book"
+          ],
+          "answer": 1,
+          "why": "予定に重要な情報はなお確認する必要がある。更新なしは変化なしの証明ではない。"
+        }
+      ]
+    },
+    "words": [
+      "resolve＝解決する",
+      "outdated＝古くなった",
+      "stable＝変化しにくい・安定した"
+    ]
+  },
+  {
+    "day": 20,
+    "title": "対立する意見",
+    "focus": "誰が何に賛成しているか整理する",
+    "listening": {
+      "text": "Some colleagues want the staff newsletter to become shorter, while others say it already leaves out useful detail. I think both groups have a point. People should be able to see the essential updates quickly, but they shouldn't lose access to explanations. What if each item began with two summary sentences, followed by a link to the full information? We'd need someone to maintain those links, of course. I'd try this format for two editions and then ask readers whether it meets both needs.",
+      "questions": [
+        {
+          "prompt": "What solution does the speaker propose?",
+          "options": [
+            "Provide short summaries with links to details",
+            "Stop producing the newsletter",
+            "Only publish headlines with no further information"
+          ],
+          "answer": 0,
+          "why": "two summary sentences, followed by a link が折衷案。"
+        },
+        {
+          "prompt": "What practical requirement does the speaker mention?",
+          "options": [
+            "Readers must write every article",
+            "All editions must be printed",
+            "Someone must maintain the links"
+          ],
+          "answer": 2,
+          "why": "need someone to maintain those links。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "A proposal to extend market hours has divided traders. Food sellers expect more evening customers, whereas some craft sellers worry about paying staff for hours with few sales. The market committee has suggested a voluntary trial on two Fridays. Traders who close at the usual time will not lose their regular spaces. Supporters consider this a low-risk way to test demand; critics argue that an incomplete market may attract fewer visitors and make the results misleading. The committee has not yet decided how to address that concern.\n\nTo improve the trial, the committee may ask all traders to record hourly sales whether or not they stay open late. That would show whether evening sales are additional or simply shifted from earlier hours. It is also considering shared security costs, because small traders say paying individually would make participation unrealistic. A final decision will be made only after traders see the full trial conditions.",
+      "questions": [
+        {
+          "prompt": "What is the critics’ concern about the trial design?",
+          "options": [
+            "An incomplete market could distort the results",
+            "All traders are being forced to participate",
+            "Regular spaces will automatically be lost"
+          ],
+          "answer": 0,
+          "why": "incomplete market … fewer visitors … misleading が批判の論点。"
+        },
+        {
+          "prompt": "What is already clear about the proposed trial?",
+          "options": [
+            "It will run every evening permanently",
+            "Participation would be optional",
+            "The committee has resolved every concern"
+          ],
+          "answer": 1,
+          "why": "voluntary trial と usual time に閉めても不利益なし、が根拠。"
+        },
+        {
+          "prompt": "Why record hourly sales?",
+          "options": [
+            "To see whether evening business is genuinely additional",
+            "To force every trader to stay late",
+            "To remove regular market spaces"
+          ],
+          "answer": 0,
+          "why": "夕方の売上が追加需要か、昼から移っただけかを確認する。"
+        },
+        {
+          "prompt": "What could make the trial more practical for small traders?",
+          "options": [
+            "Individual security contracts",
+            "Shared security costs",
+            "Permanent compulsory hours"
+          ],
+          "answer": 1,
+          "why": "security費を共同負担する案が参加現実性を高める。"
+        }
+      ]
+    },
+    "words": [
+      "essential＝不可欠な・主要な",
+      "voluntary＝任意の",
+      "misleading＝誤解を招く"
+    ]
+  },
+  {
+    "day": 21,
+    "title": "第3週チェック",
+    "focus": "主張・根拠・限界を分けて解く",
+    "listening": {
+      "text": "The survey suggests that customers like the new self-service machines, but remember who answered it: people who had successfully used a machine and then completed the screen survey. We heard very little from those who gave up and went to the staffed counter. Before removing any counters, we should talk to that group as well. I'm not arguing against the machines. I just don't want a decision about everyone's access to be based only on the experiences of people who already find the technology easy.",
+      "questions": [
+        {
+          "prompt": "What is the main weakness of the survey?",
+          "options": [
+            "It contains too many counter users",
+            "It mainly reflects successful users’ experiences",
+            "It proves the machines never work"
+          ],
+          "answer": 1,
+          "why": "successfully used … very little from those who gave up。回答者に偏りがある。"
+        },
+        {
+          "prompt": "What is the speaker recommending?",
+          "options": [
+            "Seek views from people who struggled",
+            "Abandon all machines",
+            "Remove counters immediately"
+          ],
+          "answer": 0,
+          "why": "talk to that group は gave up の人たち。機械への全面反対ではない。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "A housing association offered residents free energy advice. Those who attended later reported lower bills, but attendance was voluntary and participants may already have been motivated to save energy. Furthermore, the winter was warmer than the previous year. The association considers the programme worth continuing because residents valued the advice. However, it will not claim a precise financial saving without stronger evidence. In the next phase, it plans to compare similar households over the same period and record which recommended changes they actually make.\n\nThe new comparison will include homes of similar size and heating type, but researchers recognise that behaviour remains hard to match exactly. They will therefore report a range of outcomes rather than one promised saving. Residents will also receive follow-up calls to identify recommendations that were difficult to apply. Advice that looks effective on paper has limited value if households cannot act on it.",
+      "questions": [
+        {
+          "prompt": "Why is a precise saving difficult to claim?",
+          "options": [
+            "No residents attended",
+            "Energy advice always increases bills",
+            "Motivation and weather may also explain lower bills"
+          ],
+          "answer": 2,
+          "why": "voluntary / motivated と warmer winter が他の説明。"
+        },
+        {
+          "prompt": "Why continue the programme?",
+          "options": [
+            "Every household made identical changes",
+            "Residents found the advice useful",
+            "The exact saving has been proved"
+          ],
+          "answer": 1,
+          "why": "residents valued the advice が継続理由。金銭効果が確定したためではない。"
+        },
+        {
+          "prompt": "Why will the association report a range?",
+          "options": [
+            "Household behaviour cannot be perfectly matched",
+            "All homes use identical heating",
+            "It has promised one exact saving"
+          ],
+          "answer": 0,
+          "why": "住宅条件をそろえても行動差は完全にはそろわないため、単一額でなく幅を示す。"
+        },
+        {
+          "prompt": "What will follow-up calls help identify?",
+          "options": [
+            "Advice residents could not easily put into practice",
+            "Residents who want warmer winters",
+            "The price of the original survey"
+          ],
+          "answer": 0,
+          "why": "recommendations that were difficult to apply を把握する。"
+        }
+      ]
+    },
+    "words": [
+      "reflect＝反映する",
+      "motivated＝意欲がある",
+      "precise＝正確な"
+    ]
+  },
+  {
+    "day": 22,
+    "title": "複数の条件を統合",
+    "focus": "条件を一つずつ満たすか確認する",
+    "listening": {
+      "text": "The travel grant is available to staff presenting at a conference, not just attending one. It covers economy travel and up to two nights in a hotel, but meals are excluded. Applications must be approved before tickets are purchased. If the conference is cancelled, contact finance before accepting a travel voucher, because a cash refund may be required under the grant rules. A presentation invitation alone doesn't guarantee funding; the committee also considers how relevant the event is to your current work.",
+      "questions": [
+        {
+          "prompt": "Which statement about eligibility is correct?",
+          "options": [
+            "All attendees automatically qualify",
+            "Buying a ticket guarantees funding",
+            "Presenters may apply, but approval is not guaranteed"
+          ],
+          "answer": 2,
+          "why": "presenting が対象。ただし invitation alone doesn’t guarantee funding。"
+        },
+        {
+          "prompt": "What must happen before tickets are bought?",
+          "options": [
+            "A hotel must cancel the booking",
+            "Meals must be reimbursed",
+            "The application must be approved"
+          ],
+          "answer": 2,
+          "why": "approved before tickets are purchased。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "A retailer accepts returns within thirty days if items are unused and proof of purchase is supplied. Reduced-price goods follow the same rule, except items clearly marked as final sale. Customers who bought online may return items by post or at a branch. Postal costs are refunded only when the retailer sent the wrong item or the product was faulty. A change of mind is an acceptable reason to return an eligible item, but it does not qualify the customer for reimbursement of return postage.\n\nGift receipts count as proof of purchase, although any refund goes to the original payment method. Hygiene-sensitive products cannot be returned once their seal is broken unless they are faulty. These limits are displayed at checkout and online. The retailer advises customers to inspect deliveries promptly, because reporting a fault after extensive use may make it harder to establish whether the problem existed on arrival.",
+      "questions": [
+        {
+          "prompt": "An unused sale item is not marked “final sale”. With a receipt, may it be returned after twenty days?",
+          "options": [
+            "Only if it is faulty",
+            "Yes, it meets the stated conditions",
+            "No, discounted goods are never returnable"
+          ],
+          "answer": 1,
+          "why": "30日以内・未使用・購入証明あり。通常の値下げ品にも同じ規則。"
+        },
+        {
+          "prompt": "Who pays return postage after a simple change of mind?",
+          "options": [
+            "The retailer in every case",
+            "The customer",
+            "The nearest branch"
+          ],
+          "answer": 1,
+          "why": "郵送料返金は誤配送・不良だけ。返品可能であることと送料負担は別。"
+        },
+        {
+          "prompt": "Where is a refund for a gift purchase sent?",
+          "options": [
+            "To the person holding the gift receipt",
+            "To the original payment method",
+            "Only as cash at a branch"
+          ],
+          "answer": 1,
+          "why": "gift receiptは購入証明になるが、refundはoriginal payment methodへ戻る。"
+        },
+        {
+          "prompt": "When may an opened hygiene-sensitive product be returned?",
+          "options": [
+            "Whenever the customer changes their mind",
+            "Only after thirty days",
+            "If it is faulty"
+          ],
+          "answer": 2,
+          "why": "seal開封後は原則不可だが、faultyの場合は例外。"
+        }
+      ]
+    },
+    "words": [
+      "eligible＝条件を満たす",
+      "proof of purchase＝購入証明",
+      "reimbursement＝払い戻し"
+    ]
+  },
+  {
+    "day": 23,
+    "title": "控えめな主張",
+    "focus": "may / likely / not necessarily の強さを読む",
+    "listening": {
+      "text": "The early results are promising, but we should be careful about saying the new training causes better performance. Staff who volunteered may have been more interested in the topic to begin with. Also, the improvement was measured immediately after the course, so we don't know whether it will last. I'd describe the training as potentially useful and schedule another assessment in three months. That isn't a reason to stop offering it. It's a reason to match our claims to the evidence we actually have.",
+      "questions": [
+        {
+          "prompt": "Which description best matches the speaker’s view?",
+          "options": [
+            "The training may help, but more evidence is needed",
+            "The training is useless",
+            "The training is guaranteed to work permanently"
+          ],
+          "answer": 0,
+          "why": "potentially useful と another assessment。可能性を認め、断定を避ける。"
+        },
+        {
+          "prompt": "Why assess again in three months?",
+          "options": [
+            "To see whether the improvement persists",
+            "To avoid measuring performance",
+            "To select only interested volunteers"
+          ],
+          "answer": 0,
+          "why": "don’t know whether it will last に対応する確認。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "A report suggests that shared workspaces may help independent workers feel less isolated. It does not imply that every worker will benefit equally. Some respondents valued casual conversation, while others found the same environment distracting. The authors recommend that workspace providers offer both social areas and quiet rooms, where possible. They also note that their survey covered urban locations only. Similar findings should not automatically be assumed for rural areas, where travel distances and the availability of alternatives may shape people's experiences differently.\n\nThe authors are now planning interviews to explore why some users feel distracted. Noise may be one factor, but interruptions, lack of privacy, and the type of work could also matter. They will include smaller towns in the next stage, while avoiding claims that one additional group represents every rural setting. The aim is to explain variation, not merely produce a larger average.",
+      "questions": [
+        {
+          "prompt": "Which claim is supported?",
+          "options": [
+            "Shared spaces eliminate isolation for everyone",
+            "Benefits can vary between workers",
+            "Rural workers were the main survey group"
+          ],
+          "answer": 1,
+          "why": "does not imply … equally と対照的な回答が根拠。"
+        },
+        {
+          "prompt": "Why do the authors mention urban locations?",
+          "options": [
+            "To prohibit rural shared spaces",
+            "To state a limit on applying the findings elsewhere",
+            "To claim travel never matters"
+          ],
+          "answer": 1,
+          "why": "urban locations only。調査対象外への一般化を制限している。"
+        },
+        {
+          "prompt": "What is the purpose of the planned interviews?",
+          "options": [
+            "To explore reasons for different experiences",
+            "To prove noise is the only cause",
+            "To exclude people in small towns"
+          ],
+          "answer": 0,
+          "why": "distractedになる理由をnoise以外も含めて調べ、variationを説明する。"
+        },
+        {
+          "prompt": "Why will the authors still be cautious about rural claims?",
+          "options": [
+            "One added group cannot represent all rural settings",
+            "Urban results have been withdrawn",
+            "Rural workers never use shared spaces"
+          ],
+          "answer": 0,
+          "why": "一つの追加集団だけで全農村環境を代表できないと明記。"
+        }
+      ]
+    },
+    "words": [
+      "potentially＝可能性として",
+      "persist＝持続する",
+      "imply＝示唆する"
+    ]
+  },
+  {
+    "day": 24,
+    "title": "情報の訂正を連続で追う",
+    "focus": "日付・対象・変更なしの情報を分ける",
+    "listening": {
+      "text": "An update on the building inspection: it will still take place on Monday, but inspectors will arrive at ten rather than eight. We originally asked everyone to work from home all day. That's no longer necessary; only the second floor will be closed, and only until lunchtime. Colleagues based there can use the ground-floor meeting rooms, although those rooms won't be available for normal bookings. If you need a quiet space for a client call, reserve a booth on the first floor instead.",
+      "questions": [
+        {
+          "prompt": "What is the final plan for the second floor?",
+          "options": [
+            "It will be closed until lunchtime on Monday",
+            "It will close for the whole week",
+            "It will open at eight for inspections"
+          ],
+          "answer": 0,
+          "why": "only the second floor … only until lunchtime。Monday は変わらない。"
+        },
+        {
+          "prompt": "Where should someone reserve a quiet client-call space?",
+          "options": [
+            "In a first-floor booth",
+            "In a second-floor office",
+            "In a normally booked ground-floor meeting room"
+          ],
+          "answer": 0,
+          "why": "reserve a booth on the first floor instead が案内。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "The organisers have revised the entry arrangements for Sunday's fun run. Registration will now close at eight forty-five, fifteen minutes earlier than advertised, but the race will still start at nine thirty. Participants who collected their numbers in advance can go directly to the starting area. Everyone else must visit the registration desk first. Bags may be left in the supervised tent, though valuables remain the owner's responsibility. The change is intended to reduce queues; it does not shorten the time allocated for the race itself.\n\nBecause some runners travel by an early bus that arrives at eight fifty, the organisers will keep a separate desk open for those who warned them in advance. This is an exception, not a second general deadline. Late arrivals without prior notice may be unable to take part because safety staff must finalise the participant list. The organisers have updated the website and emailed registered runners.",
+      "questions": [
+        {
+          "prompt": "What has changed?",
+          "options": [
+            "All participants must collect new numbers",
+            "The registration deadline is earlier",
+            "The race starts fifteen minutes earlier"
+          ],
+          "answer": 1,
+          "why": "registration が早まり、start は still nine thirty。"
+        },
+        {
+          "prompt": "Who can skip the registration desk?",
+          "options": [
+            "Participants who already collected their numbers",
+            "Only people without bags",
+            "Anyone arriving after nine"
+          ],
+          "answer": 0,
+          "why": "collected their numbers in advance → directly to starting area。"
+        },
+        {
+          "prompt": "Who may use the separate registration desk?",
+          "options": [
+            "Any runner arriving after nine",
+            "Pre-notified runners on the early bus",
+            "Participants who collected numbers in advance"
+          ],
+          "answer": 1,
+          "why": "early bus利用を事前連絡した人への限定例外。一般的な第二締切ではない。"
+        },
+        {
+          "prompt": "Why might an unannounced late runner be refused?",
+          "options": [
+            "The participant list must be finalised for safety",
+            "The race now starts at eight forty-five",
+            "The bag tent has been removed"
+          ],
+          "answer": 0,
+          "why": "安全担当が参加者リストを確定する必要があるため。"
+        }
+      ]
+    },
+    "words": [
+      "rather than＝〜ではなく",
+      "in advance＝前もって",
+      "allocated＝割り当てられた"
+    ]
+  },
+  {
+    "day": 25,
+    "title": "複数情報の照合",
+    "focus": "案内と返信を合わせて判断する",
+    "listening": {
+      "text": "I saw your request for an extension. Normally we need the report by Friday so the finance team can use it on Monday. Since Monday's meeting has now been postponed, Tuesday morning would be acceptable this time. Please still send the completed sales figures on Friday; it's only the commentary that can wait. I appreciate that you've been covering for a colleague, but let me know earlier next time if the deadline looks difficult. We can usually find a solution when there's enough notice.",
+      "questions": [
+        {
+          "prompt": "What may be submitted on Tuesday morning?",
+          "options": [
+            "Only the sales figures",
+            "Only the commentary",
+            "Both sections without exception"
+          ],
+          "answer": 1,
+          "why": "it’s only the commentary that can wait。売上数値はFriday。"
+        },
+        {
+          "prompt": "What does the speaker ask for in future?",
+          "options": [
+            "Avoid helping colleagues",
+            "Stop writing commentary",
+            "Give earlier warning about deadline problems"
+          ],
+          "answer": 2,
+          "why": "let me know earlier next time が今後の依頼。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "Course notice: Participants should read chapters one and two before Saturday's discussion. Bringing a laptop is optional, and printed extracts will be provided. Email from the tutor: Several people have asked about preparation. Please prioritise chapter two if you are short of time; it contains the case study we will discuss. You do not need to finish the exercises at the end of either chapter. We will work through selected exercises together. The session will assume familiarity with the case study, but not specialist knowledge of the topic.\n\nThe tutor later clarified that students should note one question about the case study rather than prepare a formal presentation. During the session, small groups will compare their questions before the tutor introduces a framework for analysis. The printed extracts contain the case study but not the background chapter, so anyone relying on paper should arrive early enough to collect the material and skim the missing context.",
+      "questions": [
+        {
+          "prompt": "If time is limited, what should a participant prioritise?",
+          "options": [
+            "Completing every exercise",
+            "Buying a laptop",
+            "Reading chapter two"
+          ],
+          "answer": 2,
+          "why": "tutor が prioritise chapter two と補足。"
+        },
+        {
+          "prompt": "What is expected before the session?",
+          "options": [
+            "Completion of all chapter exercises",
+            "Familiarity with the case study",
+            "Specialist knowledge"
+          ],
+          "answer": 1,
+          "why": "assume familiarity … but not specialist knowledge。"
+        },
+        {
+          "prompt": "What should students prepare about the case study?",
+          "options": [
+            "One question",
+            "A formal presentation",
+            "A specialist report"
+          ],
+          "answer": 0,
+          "why": "one questionをメモする。formal presentationは不要。"
+        },
+        {
+          "prompt": "What is missing from the printed extracts?",
+          "options": [
+            "The case study",
+            "The background chapter",
+            "All selected exercises"
+          ],
+          "answer": 1,
+          "why": "extractsにはcase studyはあるがbackground chapterはない。"
+        }
+      ]
+    },
+    "words": [
+      "extension＝期限延長",
+      "commentary＝説明・考察部分",
+      "familiarity＝内容を知っていること"
+    ]
+  },
+  {
+    "day": 26,
+    "title": "反例と限界",
+    "focus": "一つの成功例で「すべて」を判断しない",
+    "listening": {
+      "text": "The four-day-week trial worked well in our design team, but we shouldn't assume the same arrangement will suit customer support. Designers can often move tasks between days, whereas the support line must remain open throughout the week. That doesn't rule out shorter weeks for support staff; it may mean rotating days off instead of closing on Fridays. Before making a company-wide announcement, I'd ask each team to propose a workable schedule and explain how service levels would be maintained. The principle might transfer even if the exact timetable doesn't.",
+      "questions": [
+        {
+          "prompt": "What is the speaker’s main point?",
+          "options": [
+            "Every team should close on Friday",
+            "Support staff can never work shorter weeks",
+            "A successful approach may need adapting for other teams"
+          ],
+          "answer": 2,
+          "why": "principle might transfer even if exact timetable doesn’t。実施方法の調整が必要。"
+        },
+        {
+          "prompt": "What should teams explain before an announcement?",
+          "options": [
+            "How they would maintain service",
+            "How to eliminate all customer calls",
+            "Why all trials should stop"
+          ],
+          "answer": 0,
+          "why": "explain how service levels would be maintained。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "An article describes a village shop that survived by adding a parcel collection service. The extra visits brought some new grocery sales, but the owner stresses that success depended on having spare storage space and enough staff to handle parcels. The article presents the case as an option worth examining, not a universal solution for struggling shops. In places where rent is high or deliveries are already well served, the costs may outweigh the benefits. Readers are encouraged to assess local conditions before copying the model.\n\nA neighbouring shop tried the same service but abandoned it within three months. Its sales rose slightly, yet parcel queues blocked access to the counter and regular customers complained. This contrasting case strengthens the article's central warning. A service can create more visits while still harming the main business if layout and staffing are unsuitable. Revenue figures alone therefore cannot show whether the model works.",
+      "questions": [
+        {
+          "prompt": "How should readers treat the example?",
+          "options": [
+            "As a reason to stop grocery sales",
+            "As proof every shop will benefit",
+            "As an option dependent on local conditions"
+          ],
+          "answer": 2,
+          "why": "not a universal solution と assess local conditions が根拠。"
+        },
+        {
+          "prompt": "What contributed to the shop’s success?",
+          "options": [
+            "The absence of all delivery services",
+            "Available storage and staffing",
+            "Free rent in every village"
+          ],
+          "answer": 1,
+          "why": "spare storage space and enough staff と明記。"
+        },
+        {
+          "prompt": "Why did the neighbouring shop stop the service?",
+          "options": [
+            "It attracted no parcel users",
+            "Queues disrupted its main business",
+            "Its storage space increased"
+          ],
+          "answer": 1,
+          "why": "parcel queuesがcounterへのアクセスを塞ぎ、通常客が不満を持った。"
+        },
+        {
+          "prompt": "What does the contrasting case demonstrate?",
+          "options": [
+            "More visits do not always mean overall success",
+            "Revenue is the only useful measure",
+            "Every village shop needs fewer staff"
+          ],
+          "answer": 0,
+          "why": "来店増でも本業を害すれば成功とは限らない。"
+        }
+      ]
+    },
+    "words": [
+      "whereas＝一方で",
+      "workable＝実行可能な",
+      "outweigh＝〜を上回る"
+    ]
+  },
+  {
+    "day": 27,
+    "title": "筆者の立場と引用",
+    "focus": "紹介している意見と本人の意見を混同しない",
+    "listening": {
+      "text": "The supplier says the premium plan is essential because it includes unlimited technical support. That may be attractive to a large organisation, but our team rarely needs help outside the initial setup. I'd rather pay for occasional support than commit to a higher monthly fee. Of course, if our needs change, we can reconsider. For now, let's calculate the cost using last year's actual support requests. The supplier's recommendation reflects one possible pattern of use, but it doesn't necessarily reflect ours.",
+      "questions": [
+        {
+          "prompt": "Which plan does the speaker currently favour?",
+          "options": [
+            "A lower-fee option with occasional paid support",
+            "The premium plan regardless of use",
+            "No technical support under any circumstances"
+          ],
+          "answer": 0,
+          "why": "pay for occasional support rather than higher monthly fee。supplier の意見と区別。"
+        },
+        {
+          "prompt": "What evidence does the speaker want to use?",
+          "options": [
+            "The supplier’s largest customer’s spending",
+            "Last year’s actual support requests",
+            "An assumption of unlimited problems"
+          ],
+          "answer": 1,
+          "why": "using last year’s actual support requests が費用算定の根拠。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "Some commentators claim that working from home inevitably weakens team relationships. The writer of this article considers that conclusion too broad. She argues that relationships depend partly on how teams communicate, not simply on where people sit. Regular opportunities to exchange ideas may matter more than physical presence alone. She nevertheless acknowledges that new employees can find remote work especially challenging and may need additional support. Her argument is not that location is irrelevant, but that it cannot by itself explain the quality of teamwork.\n\nThe writer cites a software team that meets in person twice a month and communicates effectively between meetings. She also describes a fully office-based team whose members rarely share unfinished ideas. These examples are not offered as proof that remote work is better. Their purpose is to show why location and relationship quality should be measured separately before conclusions are drawn.",
+      "questions": [
+        {
+          "prompt": "What is the writer’s position?",
+          "options": [
+            "Location alone does not determine team relationships",
+            "New employees never need support",
+            "Remote work inevitably destroys teamwork"
+          ],
+          "answer": 0,
+          "why": "cannot by itself explain … teamwork が立場。冒頭の claim は他者の意見。"
+        },
+        {
+          "prompt": "Why mention new employees?",
+          "options": [
+            "To withdraw the entire argument",
+            "To acknowledge a particular challenge",
+            "To prove communication has no role"
+          ],
+          "answer": 1,
+          "why": "nevertheless acknowledges は自分の主張に留保を加える役割。"
+        },
+        {
+          "prompt": "Why does the writer compare the two teams?",
+          "options": [
+            "To prove remote work is always superior",
+            "To separate location from communication quality",
+            "To recommend ending all office work"
+          ],
+          "answer": 1,
+          "why": "場所と関係・communicationの質を別々に測る必要を示す例。"
+        },
+        {
+          "prompt": "What does 'These examples' refer to?",
+          "options": [
+            "The two teams with different work arrangements",
+            "Only new employees",
+            "Additional support programmes"
+          ],
+          "answer": 0,
+          "why": "直前のsoftware teamとoffice-based teamの二例を指す。"
+        }
+      ]
+    },
+    "words": [
+      "commit to＝継続的に約束する",
+      "inevitably＝必然的に",
+      "acknowledge＝認める"
+    ]
+  },
+  {
+    "day": 28,
+    "title": "第4週チェック",
+    "focus": "時間内に主旨と根拠を取る",
+    "listening": {
+      "text": "We're considering removing the printed instruction sheet from our product boxes and using a link instead. It would reduce paper and let us update the guidance quickly. However, we receive calls from customers who struggle to connect the device before they can access online help. I'd keep a brief setup card in the box and put the detailed instructions online. We should test whether customers can complete the first steps using that card alone. Saving paper is worthwhile, but support needs to be available at the point people actually need it.",
+      "questions": [
+        {
+          "prompt": "What compromise does the speaker suggest?",
+          "options": [
+            "Keep a short setup card and move details online",
+            "Print every update in full",
+            "Remove all instructions"
+          ],
+          "answer": 0,
+          "why": "brief setup card in the box と detailed instructions online の組合せ。"
+        },
+        {
+          "prompt": "What should the test establish?",
+          "options": [
+            "Whether every customer prefers paper",
+            "Whether the card alone enables the initial setup",
+            "Whether online guidance can never change"
+          ],
+          "answer": 1,
+          "why": "complete the first steps using that card alone が検証点。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "The city trialled a free shuttle between the station and a business park. Passenger numbers were modest overall, but the earliest service was often full. A consultant warned that daily averages concealed this difference. She recommended adjusting the timetable to match demand before judging the service unsuccessful. The council will add one early journey and reduce an afternoon service during a further six-week trial. It will also ask passengers what alternatives they would use, to understand whether the shuttle mainly replaces car journeys or other public transport.\n\nThe extra early journey will be timed to meet the first train from the city. During the next trial, automatic counters will record passengers at every stop rather than only at the business park. This may reveal whether local residents use the shuttle for shorter trips. The consultant says success criteria should be agreed before results are seen, so that the council does not select whichever measure makes its preferred decision look strongest.",
+      "questions": [
+        {
+          "prompt": "Why might the daily average be misleading?",
+          "options": [
+            "It includes no passenger counts",
+            "It proves every service was full",
+            "It hides strong demand at a particular time"
+          ],
+          "answer": 2,
+          "why": "earliest service … full だが averages concealed this difference。"
+        },
+        {
+          "prompt": "Why ask about passengers’ alternatives?",
+          "options": [
+            "To stop the earliest service",
+            "To determine what travel the shuttle replaces",
+            "To guarantee the trial becomes permanent"
+          ],
+          "answer": 1,
+          "why": "whether … replaces car journeys or other public transport が目的。"
+        },
+        {
+          "prompt": "What might the stop-by-stop counters reveal?",
+          "options": [
+            "Whether people make shorter local journeys",
+            "Why the first train was cancelled",
+            "Which drivers prefer cars"
+          ],
+          "answer": 0,
+          "why": "全停留所で数えることでbusiness parkまで行かない短距離利用も分かる。"
+        },
+        {
+          "prompt": "Why set success criteria in advance?",
+          "options": [
+            "To avoid choosing a convenient measure after seeing results",
+            "To guarantee the shuttle continues",
+            "To reduce the number of passengers"
+          ],
+          "answer": 0,
+          "why": "結果後に都合のよい尺度だけ選ぶことを防ぐ。"
+        }
+      ]
+    },
+    "words": [
+      "setup＝初期設定",
+      "conceal＝隠す",
+      "alternative＝代替手段"
+    ]
+  },
+  {
+    "day": 29,
+    "title": "総合練習 A",
+    "focus": "初回は音声1回・辞書なし。最後に根拠を確認する",
+    "listening": {
+      "text": "The online induction has reduced the time managers spend repeating basic information, but new staff say they miss the chance to ask small questions informally. I don't think returning to a full day of presentations is the answer. We could keep the online modules and add a short conversation with a colleague during the first week. That person wouldn't replace the manager or assess performance; they'd simply explain everyday practices. Let's try it with the next group of recruits and ask which questions still go unanswered before deciding whether to expand it.",
+      "questions": [
+        {
+          "prompt": "What change is proposed?",
+          "options": [
+            "Use colleagues to grade new staff",
+            "Add an informal colleague conversation",
+            "Replace all modules with presentations"
+          ],
+          "answer": 1,
+          "why": "keep … modules and add … conversation。既存の効率性を保ち補完する。"
+        },
+        {
+          "prompt": "What would the colleague mainly do?",
+          "options": [
+            "Explain day-to-day practices",
+            "Assess performance formally",
+            "Repeat every module in full"
+          ],
+          "answer": 0,
+          "why": "simply explain everyday practices と役割を限定している。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "A study group replaced weekly chapter summaries with questions written by members. The organiser hoped this would encourage closer reading. Discussions became livelier, yet a few members said they felt less confident without a summary to check their understanding. Rather than abandon the new approach, the group agreed to share a brief outline after each discussion. This preserves the incentive to read independently while providing a reference afterwards. The organiser will review participation next month, recognising that lively discussion does not necessarily mean every member is benefiting equally.\n\nThe outline will list the chapter's argument and key terms but will not answer the members' questions directly. Members can revise their own responses after reading it. The organiser will assess participation through a short anonymous survey as well as attendance figures, because quiet members may prepare carefully without speaking often. This method also recognises that confidence and understanding are related but distinct outcomes.",
+      "questions": [
+        {
+          "prompt": "Why share the outline after the discussion?",
+          "options": [
+            "To prevent anyone reading beforehand",
+            "To combine independent preparation with later support",
+            "To replace member questions entirely"
+          ],
+          "answer": 1,
+          "why": "independently と reference afterwards の両立。"
+        },
+        {
+          "prompt": "What limitation does the organiser recognise?",
+          "options": [
+            "The outline guarantees full understanding",
+            "No members enjoyed the new method",
+            "More active discussion may not benefit everyone equally"
+          ],
+          "answer": 2,
+          "why": "最後の does not necessarily … equally が限界。"
+        },
+        {
+          "prompt": "What will the outline deliberately avoid doing?",
+          "options": [
+            "Listing key terms",
+            "Giving direct answers to member questions",
+            "Summarising the chapter's argument"
+          ],
+          "answer": 1,
+          "why": "argumentとkey termsは載せるが、questionsへのdirect answersは載せない。"
+        },
+        {
+          "prompt": "Why use an anonymous survey as well as attendance?",
+          "options": [
+            "Attendance alone misses some forms of engagement",
+            "Quiet members never prepare",
+            "The organiser wants fewer responses"
+          ],
+          "answer": 0,
+          "why": "発言が少なくても準備する人がおり、出席・発言だけでは参加を捉えきれない。"
+        }
+      ]
+    },
+    "words": [
+      "induction＝導入研修",
+      "recruit＝新しいメンバー",
+      "incentive＝動機づけとなるもの"
+    ]
+  },
+  {
+    "day": 30,
+    "title": "総合練習 B・1ヶ月の振り返り",
+    "focus": "初回は音声1回・辞書なし。Day 29と合わせて確認する",
+    "listening": {
+      "text": "The town's tool-lending service is popular, but the waiting list is growing for a few items, especially drills. Buying more of everything would be expensive and might leave less-used tools sitting on shelves. I'd first shorten the loan period for the busiest items, provided members can request an extension when no one is waiting. We should also record unsuccessful requests, since completed loans alone don't show unmet demand. After a month, we'll be better placed to decide which extra tools are worth buying and whether the shorter loans create difficulties.",
+      "questions": [
+        {
+          "prompt": "What is the proposed first step?",
+          "options": [
+            "Buy more of every tool",
+            "Shorten loans for the most popular tools, with conditional extensions",
+            "Close the service to new members"
+          ],
+          "answer": 1,
+          "why": "first shorten … busiest items、延長は no one is waiting が条件。"
+        },
+        {
+          "prompt": "Why record unsuccessful requests?",
+          "options": [
+            "To prove unused tools are popular",
+            "To identify demand not shown by completed loans",
+            "To discourage members from borrowing"
+          ],
+          "answer": 1,
+          "why": "completed loans alone don’t show unmet demand。成立しなかった需要も測るため。"
+        }
+      ]
+    },
+    "reading": {
+      "text": "A publisher tested audio versions of its long articles. Subscribers who tried them spent more time with the publication, but most trial users were already its most engaged readers. The editor therefore hesitates to claim that audio will attract a new audience. She plans to offer a selection to non-subscribers and ask what they would otherwise have listened to. Meanwhile, audio production will focus on articles whose arguments benefit from sustained attention. The aim is to test both the audience opportunity and the editorial value, rather than convert every article simply because the technology makes it possible.\n\nProducing audio requires editorial work beyond simply reading the text aloud. References to charts must be rewritten, and headings need spoken transitions so listeners can follow the structure. The publisher will track completion, return visits, and voluntary survey responses, while recognising that each measure captures a different kind of value. A successful experiment may therefore lead to a selective audio programme rather than a complete replacement of written articles.",
+      "questions": [
+        {
+          "prompt": "Why is the editor cautious about attracting a new audience?",
+          "options": [
+            "No subscribers used the audio",
+            "Trial users were already highly engaged",
+            "All articles had already been converted"
+          ],
+          "answer": 1,
+          "why": "most trial users were already … most engaged readers。新規層での効果は未確認。"
+        },
+        {
+          "prompt": "Which best describes the next stage?",
+          "options": [
+            "Test new audiences and choose articles suited to audio",
+            "Convert everything immediately",
+            "Stop audio because technology is unavailable"
+          ],
+          "answer": 0,
+          "why": "non-subscribers と articles … sustained attention の二本立て。"
+        },
+        {
+          "prompt": "Why must some articles be adapted for audio?",
+          "options": [
+            "Visual references and structure need verbal explanation",
+            "Listeners cannot understand headings",
+            "Audio removes the need for editing"
+          ],
+          "answer": 0,
+          "why": "chartsへの参照やheadingの構造を音声で分かる形に書き換える必要がある。"
+        },
+        {
+          "prompt": "What outcome does the publisher consider possible?",
+          "options": [
+            "Replacing every written article",
+            "A selective continuing audio programme",
+            "Ending all audience research"
+          ],
+          "answer": 1,
+          "why": "成功してもcomplete replacementではなくselective programmeになり得る。"
+        }
+      ]
+    },
+    "words": [
+      "unmet demand＝満たされていない需要",
+      "engaged＝熱心に関わっている",
+      "sustained attention＝持続的な注意"
+    ]
+  }
+]
