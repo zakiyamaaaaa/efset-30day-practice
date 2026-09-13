@@ -3,4 +3,9 @@
 *.wav
 *.zip
 __pycache__/
-
+.local-data/
+node_modules/
+dist/
+cdk.out/
+site/*
+!site/.gitkeep

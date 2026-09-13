@@ -11,7 +11,43 @@ EF SETのスコア向上を目標に、毎日Listening 5分とReading 5分に取
 - 全30日、合計180問
 - 日本語の解説、5分タイマー、学習メモ、初回点の記録
 
-メモと採点記録はブラウザのLocalStorageに保存され、外部サーバーへ送信されません。「学習記録を保存」ボタンからJSON形式でも書き出せます。
+メモと採点記録はブラウザのLocalStorageに保存されます。サーバーを起動している場合は、ブラウザごとに発行した匿名IDを使ってサーバーにも同期保存します。「学習記録を保存」ボタンからJSON形式でも書き出せます。
+
+## サーバー保存（ローカル開発）
+
+TypeScriptのローカルサーバーを使うと、回答・メモを `.local-data/records.json` に保存できます。
+
+```bash
+npm install
+npm run dev
+```
+
+ブラウザで `http://localhost:8000` を開いてください。LocalStorageはブラウザ側のバックアップとして残ります。開発版は認証なしの匿名ID方式なので、公開運用ではCognitoなどの認証を追加してください。
+
+## Gemini AI解説
+
+採点後の各選択肢にある「AIで詳しく解説」ボタンと、今日の問題について質問できるチャットは、Google Gemini APIの `models/gemini-3.6-flash` を使います。APIキーはHTMLやブラウザには埋め込まず、ローカルサーバー／AWS Lambdaから中継します。
+
+ローカルでAI機能を使う場合は、Gemini APIキーを環境変数に設定してから起動してください。
+
+```bash
+GEMINI_API_KEY=your-api-key npm run dev
+```
+
+モデルを変更する場合は `GEMINI_MODEL` で指定できます（既定値は `models/gemini-3.6-flash`）。キー未設定でも教材本体は利用できますが、AIボタンはエラー表示になります。Google AI Studioで発行したキーの利用量・課金設定を確認してから設定してください。
+
+## AWSへのデプロイ（CDK）
+
+`infra/` のAWS CDK（TypeScript）が、S3、CloudFront、API Gateway、Lambda、DynamoDBを定義します。AI用LambdaにはCloudFormationのNoEchoパラメータ `GeminiApiKey` と `GEMINI_MODEL` が渡されます。AWS CLIの認証情報を設定した後、次のコマンドでCloudFormationテンプレートを確認・デプロイできます。
+
+```bash
+npm run synth
+npx cdk deploy --parameters EfsetStack:GeminiApiKey=your-api-key
+```
+
+本番運用では、キーのローテーションが必要になった時に備えてSecrets Manager等で管理する構成も検討してください。`GeminiApiKey` を空欄にするとAI機能は無効になります。
+
+初回のAWSアカウント・リージョンでは、先に `npx cdk bootstrap` が必要です。デプロイ前にAWS Budgetsを設定し、課金上限を確認してください。
 
 ## ファイル
 

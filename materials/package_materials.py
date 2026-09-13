@@ -5,7 +5,7 @@ data=json.loads((p/'content.json').read_text())
 audio=[];durations=[]
 for d in data:
     n=d['day']; src=p/'audio'/f'day{n:02d}.aiff'; dst=p/'audio'/f'day{n:02d}.mp3'
-    if not dst.exists() or dst.stat().st_mtime<src.stat().st_mtime:
+    if not dst.exists() or (src.exists() and dst.stat().st_mtime<src.stat().st_mtime):
         subprocess.run(['ffmpeg','-y','-loglevel','error','-i',str(src),'-codec:a','libmp3lame','-b:a','64k',str(dst)],check=True)
     probe=json.loads(subprocess.check_output(['ffprobe','-v','quiet','-show_format','-of','json',str(dst)]))
     duration=float(probe['format']['duration']);assert 15<duration<65,(n,duration)

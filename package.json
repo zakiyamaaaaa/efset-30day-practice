@@ -1,0 +1,27 @@
+{
+  "name": "efset-30day-practice",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:site": "node scripts/build-site.mjs",
+    "dev": "npm run build && node dist/src/local-api.js",
+    "start": "node dist/src/local-api.js",
+    "cdk": "cdk",
+    "synth": "npm run build:site && cdk synth",
+    "deploy": "npm run build:site && cdk deploy"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/node": "^22.15.0",
+    "aws-cdk": "^2.200.0",
+    "aws-cdk-lib": "^2.200.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.800.0",
+    "@aws-sdk/lib-dynamodb": "^3.800.0"
+  }
+}
