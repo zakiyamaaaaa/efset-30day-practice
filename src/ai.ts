@@ -115,6 +115,7 @@ export function parseAiRequest(value: unknown): AiRequest {
 const systemInstruction = [
   'あなたはEF SET対策の英語学習コーチです。',
   '回答は日本語で、学習者に寄り添いながら具体的に説明してください。',
+  '回答本文はMarkdown形式で返してください。見出し、箇条書き、太字などを適切に使い、Markdownの記号を含む完成した本文だけを返してください。',
   '与えられた英文・音声スクリプト・問題データを根拠にし、根拠にないことは推測せず「本文からは判断できない」と伝えてください。',
   '英語の語句は原文のまま示し、その直後に自然な日本語の意味を添えてください。',
   '問題の正解番号や根拠を勝手に変更しないでください。',
@@ -156,10 +157,14 @@ ${questionBlock(request.question, 0)}`,
     ].join('\n');
   }
 
+  const summaryRequest = /要約|まとめ|要点|概要/.test(request.message ?? '');
   return [
     '今日の問題について、学習者の質問に答えてください。',
     '問題を解く前の質問には、必要なら答えを直接言わずヒントから説明してください。学習者が正解と根拠を尋ねた場合は、根拠を明確に示してください。',
     '複数の問題に触れる場合は、Q番号ごとに整理してください。',
+    summaryRequest
+      ? '学習者は本文の要約を求めています。最初の行から「## 本文の要約」などのMarkdown見出しで始め、本文の要約だけを返してください。挨拶、自己紹介、「参考にしてください」などの前置き、結びの励まし、追加質問の誘導、前後の区切り線は入れないでください。本文に書かれている情報だけを、重要点が分かる短い段落または箇条書きでまとめてください。'
+      : '挨拶や自己紹介などの定型的な前置き・結びは短くし、質問への回答を本文の先頭から始めてください。',
     `
 【教材】
 ${context}
@@ -184,6 +189,9 @@ export async function generateAi(value: unknown, apiKey: string | undefined, mod
 
   const modelName = model.replace(/^models\//, '').trim() || DEFAULT_GEMINI_MODEL.replace(/^models\//, '');
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(modelName)}:generateContent`;
+  const thinkingConfig = modelName.startsWith('gemini-3')
+    ? { thinkingLevel: 'minimal' }
+    : { thinkingBudget: 0 };
   let response: Response;
   try {
     response = await fetch(endpoint, {
@@ -195,7 +203,7 @@ export async function generateAi(value: unknown, apiKey: string | undefined, mod
         generationConfig: {
           temperature: 0.35,
           maxOutputTokens: 1_200,
-          thinkingConfig: { thinkingBudget: 0 },
+          thinkingConfig,
         },
       }),
     });
